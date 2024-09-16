@@ -1,10 +1,10 @@
 ---
-title: "Paper Title Number 4"
+title: "Knowledge-Enabled Motion Generation for Complex Manipulation Tasks"
 collection: publications
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
+permalink: /publication/Motion_Generalization_IROS_2023
+# excerpt: 'This paper is about fixing template issue #693.'
+date: 2023-05
+venue: 'Workshop on Geometric Representations: The Roles of Screw Theory, Lie Algebra, and Geometric Algebra, ICRA'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+citation: ' D. Das, A. Patankar, F. Honda, D. Mahalingam, N. Chakraborty, C.R. Ramakrishnan and I.V. Ramakrishnan. **Knowledge-Enabled Motion Generation for Complex Manipulation Tasks**. Workshop on Geometric Representations: The Roles of Screw Theory, Lie Algebra, and Geometric Algebra, <i>IEEE International Conference on Robotics and Automation (ICRA)</i> 2023.'
 ---
