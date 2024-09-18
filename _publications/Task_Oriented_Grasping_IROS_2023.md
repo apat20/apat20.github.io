@@ -1,8 +1,7 @@
 ---
-title: "A General Formulation for Path Constrained Time-Optimized Trajectory Planning with Environmental and Object Contacts"
+title: "Task-Oriented Grasping with Point Cloud Representation of Objects"
 collection: publications
 permalink: /publication/Task_Oriented_Grasping_IROS_2023
-# excerpt: 'This paper is about fixing template issue #693.'
 date: 2023-10-5
 venue: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
