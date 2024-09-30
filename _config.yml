@@ -299,6 +299,8 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+disableKinds:
+  - sitemap
 
 # Archives
 #  Type
