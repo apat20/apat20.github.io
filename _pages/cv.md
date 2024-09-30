@@ -11,27 +11,43 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Mechanical Engineering (Robotics), Stony Brook University 2025 (expected)
+* M.S. in Mechanical Engineering, Stony Brook University, 2019
+* B.E. in Mechanical Engineering, Savitribai Phule Pune University, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Research Intern - Robotics and 3D Modelling (June 2024 -  August 2024)
+  * Nokia Bell Labs, Murray Hill, NJ, USA 
+  * Studied the problem of representing and understanding large indoor physical spaces using different camera sensors.
+  * Developed pipelines for generating 3D representations of environments using radiance field techniques (NeRFs, 3D Gaussian Splatting) for    data collected from fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling cameras, and RGB-D cameras (Intel Realsense D435i) mounted on a mobile robot for large indoor environments (warehouses etc.) 
+  * Supervisors: Dr. Matthew Andrews and Dr.Jeongran Lee (Modelling and Opimization Group, AIRL)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Assistant
+  * Stony Brook University
+  * Developed model-based and learning-based approaches for task-oriented grasp (regrasp) synthesis, directly from sensor data, while considering the motion to be imparted to the object after grasping.
+  * Implemented a perception stack using ROS for an eye-in-hand configuration that preforms object detection, segmentation and point cloud extraction for task-based grasping and motion planning. 
+  * Collaborated with graduate students and faculty in researching problems pertaining to utilizing the screw-geometric structure of motion for motion generalization, containerized vertical farming and providing robots with self evaluation capabilities.
+  * Supervisors: Dr. Nilanjan Chakraborty and Dr. IV Ramakrishnan
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Teaching Assistant
+  * Stony Brook University
+  * MEC 310 - Introduction to Machine Design (Fall 2019)
+  * MEC 410 - Design of Machine Elements (Spring 2020)
+  * MEC 559 - Mobile Robotics and Autonomous Vehicles (Spring 2024)
+
+* Graduate Assistant 
+  * Stony Brook University
+  * Supervisor: Dr. Nilanjan Chakraborty 
+
+Academic Projects
+======
+* Visual Odometry using Deep Recurrent Convolutional Neural Networks
+
+* Transforming Constraint Satisfaction Problems from MiniZinc to QUBO
   
+* RRT Motion Planner for Differential Drive Robots
+ 
 Skills
 ======
 * Skill 1
@@ -47,17 +63,17 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
