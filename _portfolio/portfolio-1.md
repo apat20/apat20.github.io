@@ -1,6 +1,8 @@
 ---
 title: "Sensor-based Task Oriented Grasp Synthesis"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+For more details please the [project page](https://irsl-sbu.github.io/Task-Oriented-Grasping-from-Point-Cloud-Representation/).
+
 collection: portfolio
 ---
 
