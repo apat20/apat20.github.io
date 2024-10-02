@@ -7,4 +7,4 @@ For more details please the [project page](https://irsl-sbu.github.io/Task-Orien
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+One of the key challenges in task-oriented grasp synthesis is to mathematically represent a task. In our work, we represent a task as a sequence of constant screw motions. Given a grasp (pair of antipodal contact locations) we can evaluate its feasibility for imparting the desired constant screw motion using our proposed task-dependent grasp metric. More recently, we have developed a neural network-based approach which solves the inverse problem, i.e. given an object representation in terms of a partial point cloud, obtained from an RGBD sensor, and a task in terms of a screw axis, compute a good grasping region for the robot to grasp the object and impart the desired constant screw motion.
