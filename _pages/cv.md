@@ -117,3 +117,5 @@ Honors and Awards
 
 
 References will be provide on request. 
+
+[Download CV](https://drive.google.com/file/d/1-KYYeGYNYllbKJ6mRXqa-zBnMMCjLdhC/view?usp=sharing).
