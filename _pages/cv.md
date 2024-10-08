@@ -43,11 +43,14 @@ Work experience
 Academic Projects
 ======
 * Visual Odometry using Deep Recurrent Convolutional Neural Networks
+  * Implemented an end-to-end framework for Monocular Visual Odometry using Deep Recurrent Convolutional Neural Networks trained on the KITTI Dataset
 
 * Transforming Constraint Satisfaction Problems from MiniZinc to QUBO
+  * Implemented a pipeline, in Python, for converting Constraint Satisfaction Problems (CSPs) modelled using MiniZinc into their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations.
   
 * RRT Motion Planner for Differential Drive Robots
- 
+  * Implemented a modified RRT (Rapidly-exploring Random Trees) using bidirectional search trees with node expansion heuristics and region-based sampling of the goal configuration 
+
 Skills
 ======
 * Programming Languages: Python, C++, MATLAB, Prolog 
@@ -90,11 +93,27 @@ Service and Leadership
 
 * Leadership Experience
   * Graduate Student Organisation (SBU) - Secretary (Executive Board): July 2020 - May 2021
-    * Elected by the graduate student body at Stony Brook University to serve as a member of the Executive Board.
-    * Responsible for maintaining 
-  * Graduate Housing 
+    * Elected by the graduate student body at Stony Brook University.
+    * Responsible for maintaining GSO documents and records pertaining to the E-board and Senate
+    * Chaired the Elections Committee charged with conducting campus-wide elections in tandem with University administration
+    * Kickstarted various initiatives during COVID-19 to increase student and alumni engagement while fostering a strong community spirit
+  * Graduate Housing Residents Association (SBU) - Treasurer (Executive Board): Sept 2019 - Sept 2021 
+    * Elected by the graduate student body residing on-campus to serve as a member of the Executive Board
+    * Responsible for maintaining expenditure records and procuring funds from programming
+  * Graduate Student Organisation (SBU) - Senator: Sept 2019 - May 2020
+    * Represented the Department of Mechanical Engineering as the primary Senator at the GSO Senate meetings.
+  * Indian Graduate Student Association (SBU) - President (Executive Board): Nov 2017 -  Dec 2018
+    * Organized and conducted various cultural events and student orientations for the Indian graduate student community at SBU.
   
 Honors and Awards
 ====== 
+
+* Winner - Graduate Research Symposium, Stony Brook University: March 2023
+  Topic: Task-Oriented Grasping with Point Cloud Representation of Objects
+
+* Techanology Innovation Award Runner Up, SAE Baja India: Feb 2016
+
+* Ranked 34th in the Maharashtra Talent Search Examination 2008 conduted by Modern Education Society's Center for Talent Search and Excellence.
+
 
 References will be provide on request. 
