@@ -19,8 +19,8 @@ Work experience
 ======
 * Research Intern - Robotics and 3D Modelling (June 2024 -  August 2024)
   * Associated with: Nokia Bell Labs, Murray Hill, NJ, USA 
-  * Studied the problem of representing and understanding large indoor physical spaces using different camera sensors.
-  * Developed pipelines for generating 3D representations of environments using radiance field techniques (NeRFs, 3D Gaussian Splatting) for    data collected from fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling cameras, and RGB-D cameras (Intel Realsense D435i) mounted on a mobile robot for large indoor environments (warehouses etc.) 
+  * Studied the problem of understanding and representing large indoor physical spaces using camera sensors.
+  * Developed pipelines for generating 3D representations of large indoor environments (warehouses) using radiance field techniques (NeRFs, 3D Gaussian Splatting) from data collected with fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling cameras, and RGB-D cameras (Intel Realsense D435i on mobile base). 
   * Supervisors: Dr. Matthew Andrews and Dr.Jeongran Lee (Modelling and Opimization Group, AIRL)
 
 * Research Assistant
@@ -50,12 +50,10 @@ Academic Projects
  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C++, MATLAB, Prolog 
+* Frameworks: ROS, PyTorch, git, TensorFlow
+* Application Software and CAD: SolidWorks, Auto
+* Libraries: Numpy, OpenCV, Open3D, Eigen, scikit-learn, PCL, OpenGL
 
 Publications
 ======
@@ -91,7 +89,10 @@ Service and Leadership
   * CSE 523-524 Advanced Project in Computer Science: 2021 - Present
 
 * Leadership Experience
-  * 
+  * Graduate Student Organisation (SBU) - Secretary (Executive Board): July 2020 - May 2021
+    * Elected by the graduate student body at Stony Brook University to serve as a member of the Executive Board.
+    * Responsible for maintaining 
+  * Graduate Housing 
   
 Honors and Awards
 ====== 
