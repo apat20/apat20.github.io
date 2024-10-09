@@ -1,9 +1,7 @@
 ---
 title: "Manipulating Objects by Exploiting Contact with the Environment"
 excerpt: "Short description of portfolio item number 2<br/>
-    <img src='/images/500x300.png'><br/>
-    Short description of portfolio item number 2<br/>
-    <img src='/images/500x300.png'>"
+    <img src='/images/Motivation.pdf'><br/>
 collection: portfolio
 ---
 
