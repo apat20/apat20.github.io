@@ -1,4 +1,3 @@
-
 ---
 title: "Design of a Novel Robotic Hand"
 excerpt: "Short description of portfolio item number 2<br/>
