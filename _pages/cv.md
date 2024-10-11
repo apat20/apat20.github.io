@@ -116,6 +116,6 @@ Honors and Awards
 * Ranked 34th in the Maharashtra Talent Search Examination 2008 conduted by Modern Education Society's Center for Talent Search and Excellence.
 
 
-References will be provide on request. 
+References will be provided on request. 
 
 [Download CV](https://drive.google.com/file/d/1-KYYeGYNYllbKJ6mRXqa-zBnMMCjLdhC/view?usp=sharing).
