@@ -1,7 +1,6 @@
 ---
 title: "Manipulation while considering contacts"
-excerpt: "Short description of portfolio item number 2 <br/>
-
+excerpt: "To enhance the ability of robotic hands and manipulators to grasp and manipulate a wide range of objects, the environment can be effectively exploited. Successful accomplishment of many tasks involves exploitation of contacts of the grasped object with the environment. In our lab, we have developed algorithmic approaches for motion and force planning for manipulating objects by exploiting the environment while considering the nonlinear contact constraints.
     <img src='/images/Motivation.png'> <br/>
     
     "
