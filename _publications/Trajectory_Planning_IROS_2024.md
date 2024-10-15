@@ -5,6 +5,6 @@ permalink: /publication/Trajectory_Planning_IROS_2024
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-10-17
 venue: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
-paperurl: 'https://www.youtube.com/watch?v=8PLYkxJ3TJU'
+paperurl: 'https://arxiv.org/abs/2410.06295'
 citation: 'D. Mahalingam, A. Patankar, R. Laha, S. Lakshminarayanan, S. Haddadin and N. Chakraborty. A General Formulation for Path Constrained Time-Optimized Trajectory Planning with Environmental and Object Contacts. <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Abu Dhabi, 2024.'
 ---
