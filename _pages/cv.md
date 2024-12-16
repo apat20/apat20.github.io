@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Mechanical Engineering (Robotics), Stony Brook University 2025 (expected)
+* Ph.D in Mechanical Engineering - Robotics, minor in Computer Science, Stony Brook University 2025 (expected)
 * M.S. in Mechanical Engineering, Stony Brook University, 2019
 * B.E. in Mechanical Engineering, Savitribai Phule Pune University, 2012
 
@@ -19,16 +19,17 @@ Work experience
 ======
 * Research Intern - Robotics and 3D Modelling (June 2024 -  August 2024)
   * Associated with: Nokia Bell Labs, Murray Hill, NJ, USA 
-  * Studied the problem of understanding and representing large indoor physical spaces using camera sensors.
-  * Developed pipelines for generating 3D representations of large indoor environments (warehouses) using radiance field techniques (NeRFs, 3D Gaussian Splatting) from data collected with fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling cameras, and RGB-D cameras (Intel Realsense D435i on mobile base). 
+  * Studied the problem of representing and understanding large indoor physical spaces using radiance field techniques (NeRFs and 3D Gaussian Splatting).
+  * Developed pipelines for generating 3D representations of large indoor environments (warehouses) using data collected from fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling cameras (Axis), and RGB-D cameras (Intel Realsense D435i) mounted on a mobile robot. 
   * Supervisors: Dr. Matthew Andrews and Dr.Jeongran Lee (Modelling and Opimization Group, AIRL)
 
 * Research Assistant
   * Associated with: Stony Brook University
   * Developed model-based and learning-based approaches for task-oriented grasp (regrasp) synthesis, directly from sensor data, while considering the motion to be imparted to the object after grasping.
+  * Collaborated with graduate students and faculty in researching problems on utilizing the screw-geometric structure of motion for providing robots with self-evaluation capabilities, containerized vertical farming, motion generalization, mobile manipulation, robotic surgery and foundation models for robot learning.
+  * Developed novel motion planning, force planning, and trajectory optimization approaches that incorporate environmental contact constraints.
   * Implemented a perception stack using ROS for an eye-in-hand configuration that preforms object detection, segmentation and point cloud extraction for task-based grasping and motion planning. 
-  * Collaborated with graduate students and faculty in researching problems pertaining to utilizing the screw-geometric structure of motion for motion generalization, containerized vertical farming and providing robots with self evaluation capabilities.
-  * Supervisors: Dr. Nilanjan Chakraborty and Dr. IV Ramakrishnan
+  * Supervisors: Dr. Nilanjan Chakraborty, Dr. CR Ramakrishnan and Dr. IV Ramakrishnan
 
 * Teaching Assistant
   * Associated with: Stony Brook University
@@ -55,8 +56,8 @@ Skills
 ======
 * Programming Languages: Python, C++, MATLAB, Prolog 
 * Frameworks: ROS, PyTorch, git, TensorFlow
-* Application Software and CAD: SolidWorks, Auto
-* Libraries: Numpy, OpenCV, Open3D, Eigen, scikit-learn, PCL, OpenGL
+* Application Software and CAD: PyBullet, SolidWorks, AutoCAD, Inkscape, Blender
+* Libraries: Numpy, OpenCV, Open3D, nerfstudio, Eigen, scikit-learn, PCL, OpenGL 
 
 Publications
 ======
