@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV](https://drive.google.com/file/d/1-KYYeGYNYllbKJ6mRXqa-zBnMMCjLdhC/view?usp=sharing).
+
 Education
 ======
 * Ph.D in Mechanical Engineering - Robotics, minor in Computer Science, Stony Brook University 2025 (expected)
@@ -118,5 +120,3 @@ Honors and Awards
 
 
 References will be provided on request. 
-
-[Download CV](https://drive.google.com/file/d/1we2BNzoYS0wfQ1bjkqtrNkPBavD47tbe/view?usp=sharing).
