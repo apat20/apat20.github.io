@@ -17,6 +17,6 @@ During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](
 
 **Recent News**
 
-- [Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping"! Congratulations to all the authors]
-- [Nov 2024: Our paper ["Design and Kinematic Analysis of a Novel Series-Parallel Hybrid Finger for Robotic Hands"](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/17/4/044512/1207813) has been published in ASME Journal of Mechanism and Robotics!]
-- [Oct 2024: My colleague [Dasharadhan Mahalingam](https://www.linkedin.com/in/dasharadhan-mahalingam/) presented our paper on ["A General Formulation for Path Constrained Time-Optimized Trajectory Planning with Environmental and Object Contacts"](https://arxiv.org/abs/2410.06295) at IROS 2024 in Abu Dhabi.]
+- Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping"! Congratulations to all the authors
+- Nov 2024: Our paper ["Design and Kinematic Analysis of a Novel Series-Parallel Hybrid Finger for Robotic Hands"](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/17/4/044512/1207813) has been published in ASME Journal of Mechanism and Robotics!
+- Oct 2024: My colleague [Dasharadhan Mahalingam](https://www.linkedin.com/in/dasharadhan-mahalingam/) presented our paper on ["A General Formulation for Path Constrained Time-Optimized Trajectory Planning with Environmental and Object Contacts"](https://arxiv.org/abs/2410.06295) at IROS 2024 in Abu Dhabi.
