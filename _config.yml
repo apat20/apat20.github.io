@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Aditya Patankar / apat20.github.io"
+title                    : "Aditya Patankar"
 title_separator          : "-"
 name                     : &name "Aditya Patankar"
 description              : &description "personal description"
