@@ -13,7 +13,9 @@ Throughout my PhD, I have worked on several projects aimed at advancing the stat
 
 During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](https://www.bell-labs.com/#gref) as part of the [Modelling and Optimization Group](https://www.bell-labs.com/research-innovation/projects-and-initiatives/air-lab/modelling-optimization/#gref) where I was mentored by [Dr. Jeongran Lee](https://www.bell-labs.com/about/researcher-profiles/jeongranlee/) and [Dr. Matthew Andrews](https://www.bell-labs.com/about/researcher-profiles/matthewandrews/). I worked on building 3D representations for dynamic digital twins of indoor environments using radiance field techniques with various image sensors. This valuable experience enhanced my skills in computer vision, deep learning, and data collection in real-world environments.
 
-[Download CV](https://drive.google.com/file/d/16loPXEZuStYclA0pzYnIJ5WQitezcFjZ/view?usp=drive_link).
+[Download CV](https://drive.google.com/file/d/16loPXEZuStYclA0pzYnIJ5WQitezcFjZ/view?usp=sharing).
+
+
 
 **Recent News**
 
