@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](https://drive.google.com/file/d/16loPXEZuStYclA0pzYnIJ5WQitezcFjZ/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/11VGyP9zQCbQiIZh2QLmRXcas2xrbCN9S/view?usp=sharing).
 
 Education
 ======
@@ -22,16 +22,26 @@ Work experience
 * Research Assistant
   * Associated with: [Interacting Robotic Systems Laboratory](https://sites.google.com/a/stonybrook.edu/robotics/), [Stony Brook University](https://www.stonybrook.edu/)
   * Developed novel model-based and learning-based approaches for task-oriented grasp (regrasp) synthesis directly from sensor data while considering the motion to be imparted to the object.
-  * Collaborated with graduate students and faculty in researching problems on utilizing the screw-geometric structure of motion for robotic manipulation,  containerized vertical farming using cobots, motion generalization, providing robots with self-evaluation capabilities, mobile manipulation, robotic surgery, task planning and robot learning.
+  * Collaborated with graduate students and faculty in researching problems on utilizing the screw-
+  geometric structure of motion for constrained manipulation, providing robots with self evaluation
+  capabilities incremental acquisition of kinesthetic demonstrations, motion generalization, task planning and robot learning.
   * Developed novel motion planning, force planning, and trajectory optimization approaches incorporating environmental contact constraints.
-  * Implemented a perception stack using ROS for an eye-in-hand configuration that leverages state-of-the-art deep learning and foundation models to perform object detection, segmentation, and point cloud extraction for task-based grasping and motion planning.
-  * Currently exploring the use of foundation models (VLMs, LLMs and transformer-based architectures) in robotics, particularly for performing complex manipulation tasks involving constraints on the end-effector’s motion. 
+  * Engineered a perception and manipulation stack using ROS in Python and C++, configuration integrating state-of-the-art deep learning-based approaches for object detection, segmentation, and scene
+  understanding alongside novel screw geometry-based methods for path planning, grasping, and motion
+  planning in an eye-in-hand setup.
+  * Exploring the integration of foundation models—such as VLMs, LLMs, and transformer-based architectures—with screw geometry-based approaches to enhance a robot’s manipulation capabilities,
+  particularly for tasks involving end-effector motion constraints.
   * Supervisors: [Dr. Nilanjan Chakraborty](https://www.cs.stonybrook.edu/people/faculty/nilanjanchakraborty), [Dr. CR Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/crramakrishnan) and [Dr. IV Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/ivramakrishnan)
 
 * Research Intern - Robotics and 3D Modelling (June 2024 -  August 2024)
   * Associated with: [Nokia Bell Labs](https://www.bell-labs.com/#gref), Murray Hill, NJ, USA 
-  * Studied the problem of representing and understanding large indoor physical spaces using radiance field techniques (NeRFs and 3D Gaussian Splatting) for developing corresponding digital twins.
-  * Developed pipelines for generating 3D representations of large indoor environments (warehouses) using data collected from fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling cameras (Axis), and RGB-D cameras (Intel Realsense D435i) mounted on a mobile robot.
+  * Investigated techniques for representing and understanding large indoor physical spaces using radiance
+  field techniques like NeRFs and 3D Gaussian Splatting to develop corresponding digital twins.
+  * Developed efficient pipelines for generating 3D reconstructions of large indoor environments (warehouses) using data collected from fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling
+  cameras (Axis), and RGB-D cameras (Intel Realsense D435i) mounted on a mobile robot.
+  * Diagnosed and resolved key issues in camera calibration and data acquisition from RGB-D cameras
+  on a moving mobile robot, leading to a **30%** improvement in PSNR during training for radiance field
+  generation.
   * Supervisors: [Dr. Matthew Andrews](https://www.bell-labs.com/about/researcher-profiles/matthewandrews/) and [Dr.Jeongran Lee](https://www.bell-labs.com/about/researcher-profiles/jeongranlee/) ([Modelling and Opimization Group, AIRL](https://www.bell-labs.com/research-innovation/projects-and-initiatives/air-lab/modelling-optimization/#gref))
 
 * Teaching Assistant
@@ -55,8 +65,8 @@ Skills
 ======
 * Programming Languages: Python, C++, MATLAB, Prolog 
 * Frameworks: ROS, PyTorch, git, TensorFlow
-* Application Software and CAD: PyBullet, SolidWorks, AutoCAD, Inkscape, Blender
-* Libraries: Numpy, OpenCV, Open3D, nerfstudio, Eigen, scikit-learn, PCL, OpenGL 
+* Application Software and CAD: PyBullet, Gazebo, CoppeliaSim, SolidWorks, AutoCAD, Inkscape, Blender
+* Libraries: Numpy, OpenCV, Open3D, cvx, cvxpy, YALMIP, nerfstudio, Eigen, scikit-learn, PCL, OpenGL 
 
 Publications
 ======
