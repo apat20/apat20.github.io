@@ -22,7 +22,7 @@ Feel free to reach out to me if you are interested in my work, would like to col
 
 **Recent News**
 
-- Mar 2025: If you are not familiar with Screw Linear Interpolation (ScLERP) for task space path planning of manipulation tasks with constraints please check out this repository.
+- Mar 2025: If you are not familiar with Screw Linear Interpolation (ScLERP) for task space path planning of manipulation tasks with constraints please check out this [repository](https://github.com/apat20/PyScLERP).
 **NOTE:** This repository is under development and we are working on including additional examples and functionality. Feel free to reach out if you have any questions.
 - Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping"! Congratulations to all the authors
 - Nov 2024: Our paper ["Design and Kinematic Analysis of a Novel Series-Parallel Hybrid Finger for Robotic Hands"](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/17/4/044512/1207813) has been published in ASME Journal of Mechanism and Robotics!
