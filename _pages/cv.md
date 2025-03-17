@@ -26,7 +26,7 @@ Work experience
   geometric structure of motion for constrained manipulation, providing robots with self evaluation
   capabilities incremental acquisition of kinesthetic demonstrations, motion generalization, task planning and robot learning.
   * Developed novel motion planning, force planning, and trajectory optimization approaches incorporating environmental contact constraints.
-  * Engineered a perception and manipulation stack using ROS in Python and C++, configuration integrating state-of-the-art deep learning-based approaches for object detection, segmentation, and scene
+  * Engineered a perception and manipulation stack using ROS in Python and C++, integrating state-of-the-art deep learning-based approaches for object detection, segmentation, and scene
   understanding alongside novel screw geometry-based methods for path planning, grasping, and motion
   planning in an eye-in-hand setup.
   * Exploring the integration of foundation models—such as VLMs, LLMs, and transformer-based architectures—with screw geometry-based approaches to enhance a robot’s manipulation capabilities,
@@ -50,16 +50,25 @@ Work experience
   * MEC 410 - Design of Machine Elements (Spring 2020)
   * MEC 559 - Mobile Robotics and Autonomous Vehicles (Spring 2024)
 
+* Mechanical Design Intern (Nov 2016 - April 2017)
+  * Associated with: Integrated Systems, Chinchwad, Maharashtra, India
+  * Successfully designed and assembled special-purpose machines and fixtures, applying mechanical design principles to improve production processes.
+  * Effectively coordinated with vendors for raw material procurement and component manufacturing, ensuring smooth project execution and meeting project deadlines.
+
 Academic Projects
 ======
-* Visual Odometry using Deep Recurrent Convolutional Neural Networks
-  * Implemented an end-to-end framework for Monocular Visual Odometry using Deep Recurrent Convolutional Neural Networks trained on the KITTI Dataset
-
-* Transforming Constraint Satisfaction Problems from MiniZinc to QUBO
-  * Implemented a pipeline, in Python, for converting Constraint Satisfaction Problems (CSPs) modelled using MiniZinc into their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations.
   
 * RRT Motion Planner for Differential Drive Robots
-  * Implemented a modified RRT (Rapidly-exploring Random Trees) using bidirectional search trees with node expansion heuristics and region-based sampling of the goal configuration 
+  * Implemented a modified RRT (Rapidly-exploring Random Trees) using bidirectional search trees with node expansion heuristics and region-based sampling of the goal configuration.[[report]](https://drive.google.com/file/d/1t-eNTLpaBPZZ2SubyXm5LxXQmw2CrnbT/view?usp=sharing)[[code]](https://github.com/apat20/mobile-robot-rrt-planner)
+
+* Transforming Constraint Satisfaction Problems from MiniZinc to QUBO
+  * Implemented a pipeline, in Python, for converting Constraint Satisfaction Problems (CSPs) modelled using MiniZinc into their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations. [[code]](https://drive.google.com/file/d/1-_Kd3WMGHBAQmqCgSZlOCanuHsUg0Hg7/view?usp=sharing)
+
+* Newton-Euler Inverse Dynamics
+    Implemented the forward and backward iteration stage of the recursive Newton-Euler Inverse Dynamics algorithm. [[code]](https://github.com/apat20/Manipulator_Dynamics)
+
+* Visual Odometry using Deep Recurrent Convolutional Neural Networks
+  * Implemented an end-to-end framework for Monocular Visual Odometry using Deep Recurrent Convolutional Neural Networks trained on the KITTI Dataset. [[code]](https://github.com/shubpate/DeepVO)
 
 Skills
 ======
