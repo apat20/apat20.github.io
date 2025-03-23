@@ -65,7 +65,7 @@ Academic Projects
   * Implemented a pipeline, in Python, for converting Constraint Satisfaction Problems (CSPs) modelled using MiniZinc into their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations. [[code]](https://drive.google.com/file/d/1-_Kd3WMGHBAQmqCgSZlOCanuHsUg0Hg7/view?usp=sharing)
 
 * Newton-Euler Inverse Dynamics
-    Implemented the forward and backward iteration stage of the recursive Newton-Euler Inverse Dynamics algorithm. [[code]](https://github.com/apat20/Manipulator_Dynamics)
+    * Implemented the forward and backward iteration stage of the recursive Newton-Euler Inverse Dynamics algorithm. [[code]](https://github.com/apat20/Manipulator_Dynamics)
 
 * Visual Odometry using Deep Recurrent Convolutional Neural Networks
   * Implemented an end-to-end framework for Monocular Visual Odometry using Deep Recurrent Convolutional Neural Networks trained on the KITTI Dataset. [[code]](https://github.com/shubpate/DeepVO)
