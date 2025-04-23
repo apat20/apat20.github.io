@@ -21,6 +21,8 @@ Feel free to reach out to me if you are interested in my work, would like to col
 
 **Recent News**
 
+- April 2025: Our work on 'Task-dependent Grasp Metric with Object and Manipulator Dynamics' has been accepted in the 'Late Breaking Results' category at ICRA 2025.
+
 - Mar 2025: If you are not familiar with using Screw Linear Interpolation (ScLERP) for task space path planning of manipulation tasks with constraints please check out this [repository][def].
 **NOTE:** This repository is under development and we are working on including additional examples and functionality. Feel free to reach out if you have any questions.
 - Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping"! Congratulations to all the authors
