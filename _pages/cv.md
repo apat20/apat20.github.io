@@ -59,21 +59,6 @@ Work experience
   * Successfully designed and assembled special-purpose machines and fixtures, applying mechanical design principles to improve production processes.
   * Effectively coordinated with vendors for raw material procurement and component manufacturing, ensuring smooth project execution and meeting project deadlines.
 
-Academic Projects
-======
-  
-* RRT Motion Planner for Differential Drive Robots
-  * Implemented a modified RRT (Rapidly-exploring Random Trees) using bidirectional search trees with node expansion heuristics and region-based sampling of the goal configuration.[[report]](https://drive.google.com/file/d/1t-eNTLpaBPZZ2SubyXm5LxXQmw2CrnbT/view?usp=sharing)[[code]](https://github.com/apat20/mobile-robot-rrt-planner)
-
-* Transforming Constraint Satisfaction Problems from MiniZinc to QUBO
-  * Implemented a pipeline, in Python, for converting Constraint Satisfaction Problems (CSPs) modelled using MiniZinc into their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations. [[code]](https://drive.google.com/file/d/1-_Kd3WMGHBAQmqCgSZlOCanuHsUg0Hg7/view?usp=sharing)
-
-* Newton-Euler Inverse Dynamics
-    * Implemented the forward and backward iteration stage of the recursive Newton-Euler Inverse Dynamics algorithm. [[code]](https://github.com/apat20/Manipulator_Dynamics)
-
-* Visual Odometry using Deep Recurrent Convolutional Neural Networks
-  * Implemented an end-to-end framework for Monocular Visual Odometry using Deep Recurrent Convolutional Neural Networks trained on the KITTI Dataset. [[code]](https://github.com/shubpate/DeepVO)
-
 Skills
 ======
 * Programming Languages: Python, C++, MATLAB, Prolog 
@@ -98,6 +83,21 @@ Publications
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
+
+Academic Projects
+======
+  
+* RRT Motion Planner for Differential Drive Robots
+  * Implemented a modified RRT (Rapidly-exploring Random Trees) using bidirectional search trees with node expansion heuristics and region-based sampling of the goal configuration.[[report]](https://drive.google.com/file/d/1t-eNTLpaBPZZ2SubyXm5LxXQmw2CrnbT/view?usp=sharing)[[code]](https://github.com/apat20/mobile-robot-rrt-planner)
+
+* Transforming Constraint Satisfaction Problems from MiniZinc to QUBO
+  * Implemented a pipeline, in Python, for converting Constraint Satisfaction Problems (CSPs) modelled using MiniZinc into their equivalent Quadratic Unconstrained Binary Optimization (QUBO) formulations. [[code]](https://drive.google.com/file/d/1-_Kd3WMGHBAQmqCgSZlOCanuHsUg0Hg7/view?usp=sharing)
+
+* Newton-Euler Inverse Dynamics
+    * Implemented the forward and backward iteration stage of the recursive Newton-Euler Inverse Dynamics algorithm. [[code]](https://github.com/apat20/Manipulator_Dynamics)
+
+* Visual Odometry using Deep Recurrent Convolutional Neural Networks
+  * Implemented an end-to-end framework for Monocular Visual Odometry using Deep Recurrent Convolutional Neural Networks trained on the KITTI Dataset. [[code]](https://github.com/shubpate/DeepVO)
   
 Service and Leadership
 ======
@@ -131,7 +131,7 @@ Service and Leadership
 Honors and Awards
 ====== 
 
-* Winner - Graduate Research Symposium, Stony Brook University: March 2023
+* Winner - Graduate Research Symposium, Stony Brook University: March 2023 & 2025
   Topic: Task-Oriented Grasping with Point Cloud Representation of Objects
 
 * Technology Innovation Award Runner Up, SAE Baja India: Feb 2016
