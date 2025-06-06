@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](https://drive.google.com/file/d/11VGyP9zQCbQiIZh2QLmRXcas2xrbCN9S/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/1Ee-UdXvKfPRyOHOco9sOKM728bdJJ2uF/view?usp=sharing).
 
 Education
 ======
@@ -19,7 +19,11 @@ Education
 
 Work experience
 ======
-* Research Assistant
+* Robotics and Emboided AI PhD Fellow (June 2025 - Present)
+  * Associated with: [GE Aerospace Research](https://www.geaerospace.com/?utm_source=google&utm_medium=cpc&utm_campaign=GE+Aerospace+%7C+Brand&gad_source=1), Niskayuna, NY, USA
+  * Part of the Autonomous Systems Research Group at GE Aerospace Research. 
+
+* Research Assistant (June 2020 - Present)
   * Associated with: [Interacting Robotic Systems Laboratory](https://sites.google.com/a/stonybrook.edu/robotics/), [Stony Brook University](https://www.stonybrook.edu/)
   * Developed novel model-based and learning-based approaches for task-oriented grasp (regrasp) synthesis directly from sensor data while considering the motion to be imparted to the object.
   * Collaborated with graduate students and faculty in researching problems on utilizing the screw-

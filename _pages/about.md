@@ -15,12 +15,12 @@ During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](
 
 Feel free to reach out to me if you are interested in my work, would like to collaborate, or if you need a reviewer for ICRA, IROS, TRO or RAL!
 
-[Download CV](https://drive.google.com/file/d/11VGyP9zQCbQiIZh2QLmRXcas2xrbCN9S/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/1Ee-UdXvKfPRyOHOco9sOKM728bdJJ2uF/view?usp=sharing).
 
 
 
 **Recent News**
-
+- June 2025: I will be joining GE Aerospace as a Robotics and Embodied AI PhD Fellow intern in Autonomous Systems Research group. Looking forward to an exciting summer!
 - April 2025: Our work on 'Task-dependent Grasp Metric with Object and Manipulator Dynamics' has been accepted in the 'Late Breaking Results' category at ICRA 2025.
 
 - Mar 2025: If you are not familiar with using Screw Linear Interpolation (ScLERP) for task space path planning of manipulation tasks with constraints please check out this [repository][def].
