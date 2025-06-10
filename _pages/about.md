@@ -15,7 +15,7 @@ During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](
 
 Feel free to reach out to me if you are interested in my work, would like to collaborate, or if you need a reviewer for ICRA, IROS, TRO or RAL!
 
-[Download CV](https://drive.google.com/file/d/16loPXEZuStYclA0pzYnIJ5WQitezcFjZ/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/137Ho8OuYhVlojuj-n8rVj7VpwuBqXvzk/view?usp=sharing).
 
 
 
