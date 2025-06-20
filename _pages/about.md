@@ -19,13 +19,16 @@ Feel free to reach out to me if you are interested in my work, would like to col
 
 
 
-**Recent News**
+**Updates**
+- June 2025: Our work on ["Transferring Kinesthetic Demonstrations across Diverse Objects for Manipulation Plannin"](https://www.arxiv.org/pdf/2503.10904) has been accepted at IEEE/RSJ IROS 2025! Kudos to everyone involved!
+
 - June 2025: I will be joining GE Aerospace as a Robotics and Embodied AI PhD Fellow intern in Autonomous Systems Research group. Looking forward to an exciting summer!
+
 - April 2025: Our work on 'Task-dependent Grasp Metric with Object and Manipulator Dynamics' has been accepted in the 'Late Breaking Results' category at ICRA 2025.
 
 - Mar 2025: If you are not familiar with using Screw Linear Interpolation (ScLERP) for task space path planning of manipulation tasks with constraints please check out this [repository][def].
 **NOTE:** This repository is under development and we are working on including additional examples and functionality. Feel free to reach out if you have any questions.
-- Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping"! Congratulations to all the authors
+- Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping". Congratulations to all the authors!
 - Nov 2024: Our paper ["Design and Kinematic Analysis of a Novel Series-Parallel Hybrid Finger for Robotic Hands"](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/17/4/044512/1207813) has been published in ASME Journal of Mechanism and Robotics!
 - Oct 2024: My colleague [Dasharadhan Mahalingam](https://www.linkedin.com/in/dasharadhan-mahalingam/) presented our paper on ["A General Formulation for Path Constrained Time-Optimized Trajectory Planning with Environmental and Object Contacts"](https://arxiv.org/abs/2410.06295) at IROS 2024 in Abu Dhabi.
 
