@@ -20,7 +20,7 @@ Feel free to reach out to me if you are interested in my work, would like to col
 
 
 **Updates**
-- June 2025: Our work on ["Transferring Kinesthetic Demonstrations across Diverse Objects for Manipulation Plannin"](https://www.arxiv.org/pdf/2503.10904) has been accepted at IEEE/RSJ IROS 2025! Kudos to everyone involved!
+- June 2025: Our work on ["Transferring Kinesthetic Demonstrations across Diverse Objects for Manipulation Planning"](https://www.arxiv.org/pdf/2503.10904) has been accepted at IEEE/RSJ IROS 2025! Kudos to everyone involved!
 
 - June 2025: I will be joining GE Aerospace as a Robotics and Embodied AI PhD Fellow intern in Autonomous Systems Research group. Looking forward to an exciting summer!
 
