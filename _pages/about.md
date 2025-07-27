@@ -15,14 +15,14 @@ During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](
 
 Feel free to reach out to me if you are interested in my work, would like to collaborate, or if you need a reviewer for ICRA, IROS, TRO or RAL!
 
-[Download CV](https://drive.google.com/file/d/137Ho8OuYhVlojuj-n8rVj7VpwuBqXvzk/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/1KU2W8T7rzbNxpFkB01B3-L9ZdPM34KAr/view?usp=sharing).
 
 
 
 **Updates**
 - June 2025: Our work on ["Transferring Kinesthetic Demonstrations across Diverse Objects for Manipulation Planning"](https://www.arxiv.org/pdf/2503.10904) has been accepted at IEEE/RSJ IROS 2025! Kudos to everyone involved!
 
-- June 2025: I will be joining GE Aerospace as a Robotics and Embodied AI PhD Fellow intern in Autonomous Systems Research group. Looking forward to an exciting summer!
+- June 2025: I will be joining GE Aerospace Research as a Robotics and Embodied AI PhD Fellow intern in Autonomous Systems Research group. Looking forward to an exciting summer!
 
 - April 2025: Our work on 'Task-dependent Grasp Metric with Object and Manipulator Dynamics' has been accepted in the 'Late Breaking Results' category at ICRA 2025.
 

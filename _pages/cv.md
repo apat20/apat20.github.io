@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](https://drive.google.com/file/d/137Ho8OuYhVlojuj-n8rVj7VpwuBqXvzk/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/1KU2W8T7rzbNxpFkB01B3-L9ZdPM34KAr/view?usp=sharing).
 
 Education
 ======
@@ -22,6 +22,10 @@ Work experience
 * Robotics and Emboided AI PhD Fellow (June 2025 - Present)
   * Associated with: [GE Aerospace Research](https://www.geaerospace.com/?utm_source=google&utm_medium=cpc&utm_campaign=GE+Aerospace+%7C+Brand&gad_source=1), Niskayuna, NY, USA
   * Part of the Autonomous Systems Research Group at GE Aerospace Research. 
+  * Working on perception, grasping and motion planning aspects of High-Mix Low-Volume industrial automation
+  (assembly and servicing).
+  * Investigating Isaac Sim and Isaac ROS capabilities (pose estimation, grasping and motion planning) for the
+  development of robotic work cells.
 
 * Research Assistant (June 2020 - Present)
   * Associated with: [Interacting Robotic Systems Laboratory](https://sites.google.com/a/stonybrook.edu/robotics/), [Stony Brook University](https://www.stonybrook.edu/)
@@ -63,7 +67,7 @@ Skills
 ======
 * Programming Languages: Python, C++, MATLAB, Prolog 
 * Frameworks: ROS, PyTorch, git, TensorFlow
-* Application Software and CAD: PyBullet, Gazebo, CoppeliaSim, SolidWorks, AutoCAD, Inkscape, Blender
+* Application Software and CAD: PyBullet, Gazebo, Isaac Sim, CoppeliaSim, SolidWorks, AutoCAD, Inkscape, Blender
 * Libraries: Numpy, OpenCV, Open3D, cvx, cvxpy, YALMIP, nerfstudio, Eigen, scikit-learn, PCL, OpenGL 
 
 Publications
