@@ -15,7 +15,7 @@ During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](
 
 Feel free to reach out to me if you are interested in my work, would like to collaborate, or if you need a reviewer for ICRA, IROS, TRO or RAL!
 
-[Download CV](https://drive.google.com/file/d/1KU2W8T7rzbNxpFkB01B3-L9ZdPM34KAr/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/1jIBV1XhUjE2TqQ_CcZb66__aUG3ZyDns/view?usp=sharing).
 
 
 
@@ -28,8 +28,11 @@ Feel free to reach out to me if you are interested in my work, would like to col
 
 - Mar 2025: If you are not familiar with using Screw Linear Interpolation (ScLERP) for task space path planning of manipulation tasks with constraints please check out this [repository][def].
 **NOTE:** This repository is under development and we are working on including additional examples and functionality. Feel free to reach out if you have any questions.
+
 - Jan 2025: 2 Papers accepted at ICRA 2025 - ["Synthesizing Grasps and Regrasps for Complex Manipulation Tasks"](https://arxiv.org/pdf/2501.18075) and "Point Cloud Decomposition for Task-Oriented Grasping". Congratulations to all the authors!
+
 - Nov 2024: Our paper ["Design and Kinematic Analysis of a Novel Series-Parallel Hybrid Finger for Robotic Hands"](https://asmedigitalcollection.asme.org/mechanismsrobotics/article/17/4/044512/1207813) has been published in ASME Journal of Mechanism and Robotics!
+
 - Oct 2024: My colleague [Dasharadhan Mahalingam](https://www.linkedin.com/in/dasharadhan-mahalingam/) presented our paper on ["A General Formulation for Path Constrained Time-Optimized Trajectory Planning with Environmental and Object Contacts"](https://arxiv.org/abs/2410.06295) at IROS 2024 in Abu Dhabi.
 
 [def]: https://github.com/apat20/PyScLERP

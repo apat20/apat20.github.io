@@ -9,39 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](https://drive.google.com/file/d/1KU2W8T7rzbNxpFkB01B3-L9ZdPM34KAr/view?usp=sharing).
+[Download CV](https://drive.google.com/file/d/1jIBV1XhUjE2TqQ_CcZb66__aUG3ZyDns/view?usp=sharing).
 
-Education
+**Education**
 ======
-* Ph.D in Mechanical Engineering - Robotics, minor in Computer Science, Stony Brook University 2025 (expected)
+* Ph.D in Mechanical Engineering - Robotics, minor in Computer Science, Stony Brook University 2026 (expected)
 * M.S. in Mechanical Engineering, Stony Brook University, 2019
 * B.E. in Mechanical Engineering, Savitribai Phule Pune University, 2012
 
-Work experience
+**Work experience**
 ======
-* Robotics and Emboided AI PhD Fellow (June 2025 - Present)
+
+* **Research Assistant** (June 2020 - Present)
+  * **Grasping and Optimization:** Formulated a novel task-dependent grasp metric as a Second-Order Cone Program (SOCP) to evaluate grasps (antipodal and multifingered) based on their feasibility to impart the desired
+  motion after grasping. Proposed formulation incorporates object-environment contact and dynamics withoutapproximating the friction cone.
+  * **Grasp Synthesis:** Developed novel analytical and data-driven approaches for task-oriented grasp (regrasp) synthesis directly from sensor data while considering the motion to be imparted to the object.
+  * **Constrained Planning:** Developed novel motion planning, force planning, and trajectory optimization approaches incorporating environmental contact constraints.
+  * **Perception and Manipulation:** Engineered a perception and manipulation stack using ROS in Python and C++, integrating state-of-the-art deep learning-based perception alongside novel screw geometry-based methods for manipulation.
+  * **Foundation Models for Task and Motion Planning:** Exploring the integration of foundation models, such as VLMs and LLMs, with screw geometry-based approaches to enhance a robot’s manipulation capabilities,
+  particularly for tasks involving end-effector motion constraints.
+  * **Supervisors:** [Dr. Nilanjan Chakraborty](https://www.cs.stonybrook.edu/people/faculty/nilanjanchakraborty), [Dr. CR Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/crramakrishnan) and [Dr. IV Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/ivramakrishnan)
+
+* **Robotics and Emboided AI PhD Fellow** (June 2025 - August 2025)
   * Associated with: [GE Aerospace Research](https://www.geaerospace.com/?utm_source=google&utm_medium=cpc&utm_campaign=GE+Aerospace+%7C+Brand&gad_source=1), Niskayuna, NY, USA
   * Part of the Autonomous Systems Research Group at GE Aerospace Research. 
-  * Working on perception, grasping and motion planning aspects of High-Mix Low-Volume industrial automation
-  (assembly and servicing).
-  * Investigating Isaac Sim and Isaac ROS capabilities (pose estimation, grasping and motion planning) for the
-  development of robotic work cells.
+  * **NVIDIA Robotics Stack Validation:** Evaluated state-of-the-art NVIDIA algorithms for High-Mix Low-Volume industrial automation. Specifically validated cuRobo for collision-free motion planning and FoundationPose/SyntheticDETR within Isaac ROS for 6D pose estimation.
+  * **Synthetic Data Generation:** Developed a procedural defective part generation pipeline to evaluate perception systems for defect detection. Engineered a Python package to synthetically inject realistic ”bubble-like” defects onto a CAD model of a ceramic-composite platform in simulation, enabling the rigorous testing of perception and planning algorithms.
+  * **Planning for Autonomous Scanning:** Designed a perception-driven motion planning framework for scanning tubes and ducts. Integrated SAM (Segment Anything Model) for segmentation to extract point clouds and compute an Oriented Bounding Box (OBB) to assign a local object reference frame. Integrated ScLERP-based motion planning to track 6-DoF scanning poses generated using the bounding box.
 
-* Research Assistant (June 2020 - Present)
-  * Associated with: [Interacting Robotic Systems Laboratory](https://sites.google.com/a/stonybrook.edu/robotics/), [Stony Brook University](https://www.stonybrook.edu/)
-  * Developed novel model-based and learning-based approaches for task-oriented grasp (regrasp) synthesis directly from sensor data while considering the motion to be imparted to the object.
-  * Collaborated with graduate students and faculty in researching problems on utilizing the screw-
-  geometric structure of motion for constrained manipulation, providing robots with self evaluation
-  capabilities incremental acquisition of kinesthetic demonstrations, motion generalization, task planning and robot learning.
-  * Developed novel motion planning, force planning, and trajectory optimization approaches incorporating environmental contact constraints.
-  * Engineered a perception and manipulation stack using ROS in Python and C++, integrating state-of-the-art deep learning-based approaches for object detection, segmentation, and scene
-  understanding alongside novel screw geometry-based methods for path planning, grasping, and motion
-  planning in an eye-in-hand setup.
-  * Exploring the integration of foundation models—such as VLMs, LLMs, and transformer-based architectures—with screw geometry-based approaches to enhance a robot’s manipulation capabilities,
-  particularly for tasks involving end-effector motion constraints.
-  * Supervisors: [Dr. Nilanjan Chakraborty](https://www.cs.stonybrook.edu/people/faculty/nilanjanchakraborty), [Dr. CR Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/crramakrishnan) and [Dr. IV Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/ivramakrishnan)
-
-* Research Intern - Robotics and 3D Modelling (June 2024 -  August 2024)
+* **Research Intern - Robotics and 3D Modelling** (June 2024 -  August 2024)
   * Associated with: [Nokia Bell Labs](https://www.bell-labs.com/#gref), Murray Hill, NJ, USA 
   * Investigated techniques for representing and understanding large indoor physical spaces using radiance
   field techniques like NeRFs and 3D Gaussian Splatting to develop corresponding digital twins.
