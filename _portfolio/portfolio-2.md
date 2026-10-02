@@ -1,6 +1,6 @@
 ---
 title: "Motion Planning for Manipulation"
-excerpt: "Through our work, we have shown that the screw-geometric representation of motion is a general way of representing motion plans in the task space which is a subset of SE(3). This is representation can be used for tasks which involve contact with the environment as well as for complex manipulation tasks like scooping and pouring where it is difficult to specific the task constraints beforehand. <br/> <img src='/images/Grasping.gif'> Representing complex manipulation tasks, like scooping and pouring, as a sequence of constant screw motions in SE(3) allows us to extract the task-related constraints on the end-effector's motion from kinesthetic demonstrations and transfer them to newer instances of the same tasks. This approach has been evaluated for complex manipulation tasks like scooping and pouring and also in the context of vertical containerized farming for transplanting and harvesting leafy crops. <br/> <img src='/images/HarvestingExecution.gif'>"
+excerpt: "Through our work, we have shown that the screw-geometric representation of motion is a general way of representing motion plans in the task space which is a subset of SE(3). This representation can be used for tasks which involve contact with the environment as well as for complex manipulation tasks like scooping and pouring where it is difficult to specify the task constraints beforehand. <br/> <img src='/images/Grasping.gif'> Representing complex manipulation tasks, like scooping and pouring, as a sequence of constant screw motions in SE(3) allows us to extract the task-related constraints on the end-effector's motion from kinesthetic demonstrations and transfer them to newer instances of the same tasks. This approach has been evaluated for complex manipulation tasks like scooping and pouring and also in the context of vertical containerized farming for transplanting and harvesting leafy crops. <br/> <img src='/images/HarvestingExecution.gif'>"
 
 collection: portfolio
 ---
@@ -11,6 +11,10 @@ Using the screw-geometric structure of motion also allows us to generate motion 
 More recently, we have developed a self-evaluation-based approach which allows the robot to compute the minimal set of kinesthetic demonstrations required to reliably perform tasks like pouring and scooping over a specified region of its workspace. </br>
 
 Related Papers: 
+
+* D. Das, A. Patankar, N. Chakraborty, C.R. Ramakrishnan, and I.V. Ramakrishnan. Screw Geometry meets Bandits: Incremental Acquisition of Demonstrations to Generate Manipulation Plans. <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Vienna, Austria, 2026.
+
+* D. Das, A. Patankar, N. Chakraborty, C.R. Ramakrishnan, and I.V. Ramakrishnan. Transferring Kinesthetic Demonstrations across Diverse Objects for Manipulation Planning. <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Hangzhou, China, 2025.
 
 * D. Mahalingam, A. Patankar, K. Phi, N. Chakraborty, R. McGann and I.V. Ramakrishnan. Containerized Vertical Farming Using Cobots. <i>IEEE International Conference on Robotics and Automation (ICRA)</i>, Yokohama, Japan, 2024.
 
