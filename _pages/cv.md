@@ -9,44 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV](https://drive.google.com/file/d/1jIBV1XhUjE2TqQ_CcZb66__aUG3ZyDns/view?usp=sharing).
+[Download CV (PDF)](/files/Aditya_Patankar_CV.pdf).
 
 **Education**
 ======
-* Ph.D in Mechanical Engineering - Robotics, minor in Computer Science, Stony Brook University 2026 (expected)
+* Ph.D. in Mechanical Engineering - Robotics, minor in Computer Science, Stony Brook University, 2026
+  * Thesis: [Sensor-Based Task-Oriented Grasping](https://drive.google.com/file/d/1xpByRfEWfqGeon2EWBYA_WN-d9l0V54U/view?usp=sharing)
+  * Advisor: [Dr. Nilanjan Chakraborty](https://www.cs.stonybrook.edu/people/faculty/nilanjanchakraborty)
 * M.S. in Mechanical Engineering, Stony Brook University, 2019
-* B.E. in Mechanical Engineering, Savitribai Phule Pune University, 2012
+  * Thesis: Grasping Force Optimization while considering Hand Capabilities and Object-Environment Contact
+* B.E. in Mechanical Engineering, Savitribai Phule Pune University, 2016 (First Class with Distinction)
 
 **Work experience**
 ======
 
-* **Research Assistant** (June 2020 - Present)
-  * **Grasping and Optimization:** Formulated a novel task-dependent grasp metric as a Second-Order Cone Program (SOCP) to evaluate grasps (antipodal and multifingered) based on their feasibility to impart the desired
-  motion after grasping. Proposed formulation incorporates object-environment contact and dynamics withoutapproximating the friction cone.
+* **Postdoctoral Associate** (August 2026 - Present)
+  * Associated with: [The Soft Flyers Group](https://www.stonybrook.edu/commcms/soft-flyers/people/index.php), Stony Brook University
+  * Research on multimodal aerial and underwater vehicles.
+  * Research on robotic manipulation and planning.
+
+* **Research Assistant** (June 2020 - July 2026)
+  * Associated with: [Interacting Robotic Systems Laboratory](https://sites.google.com/a/stonybrook.edu/robotics/home), Stony Brook University
+  * **Grasping and Optimization:** Formulated a novel task-dependent grasp metric as a Second-Order Cone Program (SOCP) to evaluate grasps (antipodal and multifingered) based on their feasibility to impart the desired motion after grasping. Proposed formulation incorporates object-environment contact and dynamics without approximating the friction cone.
   * **Grasp Synthesis:** Developed novel analytical and data-driven approaches for task-oriented grasp (regrasp) synthesis directly from sensor data while considering the motion to be imparted to the object.
-  * **Constrained Planning:** Developed novel motion planning, force planning, and trajectory optimization approaches incorporating environmental contact constraints.
+  * **Constrained Planning:** Developed novel motion planning, force planning, and trajectory optimization approaches incorporating environmental contact constraints. Research on utilizing the screw-geometric structure of motion for constrained manipulation, providing robots with self-evaluation capabilities, incremental acquisition of kinesthetic demonstrations, motion generalization and task planning.
   * **Perception and Manipulation:** Engineered a perception and manipulation stack using ROS in Python and C++, integrating state-of-the-art deep learning-based perception alongside novel screw geometry-based methods for manipulation.
-  * **Foundation Models for Task and Motion Planning:** Exploring the integration of foundation models, such as VLMs and LLMs, with screw geometry-based approaches to enhance a robot’s manipulation capabilities,
-  particularly for tasks involving end-effector motion constraints.
+  * **Foundation Models for Task and Motion Planning:** Exploring the integration of foundation models, such as VLMs and LLMs, with screw geometry-based approaches to enhance a robot’s task planning capabilities, particularly for tasks involving end-effector motion constraints.
+  * **Dexterous Manipulation:** Conducting active research to develop dexterous manipulation capabilities for mobile manipulators and humanoids, by bridging geometric constraint modeling with data-driven approaches.
   * **Supervisors:** [Dr. Nilanjan Chakraborty](https://www.cs.stonybrook.edu/people/faculty/nilanjanchakraborty), [Dr. CR Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/crramakrishnan) and [Dr. IV Ramakrishnan](https://www.cs.stonybrook.edu/people/faculty/ivramakrishnan)
 
-* **Robotics and Emboided AI PhD Fellow** (June 2025 - August 2025)
-  * Associated with: [GE Aerospace Research](https://www.geaerospace.com/?utm_source=google&utm_medium=cpc&utm_campaign=GE+Aerospace+%7C+Brand&gad_source=1), Niskayuna, NY, USA
-  * Part of the Autonomous Systems Research Group at GE Aerospace Research. 
-  * **NVIDIA Robotics Stack Validation:** Evaluated state-of-the-art NVIDIA algorithms for High-Mix Low-Volume industrial automation. Specifically validated cuRobo for collision-free motion planning and FoundationPose/SyntheticDETR within Isaac ROS for 6D pose estimation.
-  * **Synthetic Data Generation:** Developed a procedural defective part generation pipeline to evaluate perception systems for defect detection. Engineered a Python package to synthetically inject realistic ”bubble-like” defects onto a CAD model of a ceramic-composite platform in simulation, enabling the rigorous testing of perception and planning algorithms.
-  * **Planning for Autonomous Scanning:** Designed a perception-driven motion planning framework for scanning tubes and ducts. Integrated SAM (Segment Anything Model) for segmentation to extract point clouds and compute an Oriented Bounding Box (OBB) to assign a local object reference frame. Integrated ScLERP-based motion planning to track 6-DoF scanning poses generated using the bounding box.
+* **Robotics and Embodied AI PhD Fellow (Intern)** (June 2025 - August 2025)
+  * Associated with: [GE Aerospace Research](https://www.geaerospace.com/), Niskayuna, NY, USA
+  * Part of the Autonomous Systems Research Group at GE Aerospace Research.
+  * **NVIDIA Robotics Stack Validation:** Evaluated state-of-the-art NVIDIA algorithms for High-Mix Low-Volume industrial automation. Specifically validated cuRobo for collision-free motion planning and FoundationPose within Isaac Sim for 6D pose estimation.
+  * **Synthetic Data Generation:** Developed a procedural defective part generation pipeline to evaluate perception systems for defect detection. Engineered a Python package to synthetically inject realistic "bubble-like" defects onto a CAD model of a ceramic-composite platform in simulation, enabling the rigorous testing of perception and planning algorithms.
+  * **Autonomous Scanning:** Designed a perception-driven motion planning framework for scanning tubes and ducts. Integrated SAM (Segment Anything Model) for segmentation to extract point clouds and compute an Oriented Bounding Box (OBB) to assign a local object reference frame. Integrated ScLERP-based motion planning to track 6-DoF scanning poses generated using the bounding box.
 
-* **Research Intern - Robotics and 3D Modelling** (June 2024 -  August 2024)
-  * Associated with: [Nokia Bell Labs](https://www.bell-labs.com/#gref), Murray Hill, NJ, USA 
-  * Investigated techniques for representing and understanding large indoor physical spaces using radiance
-  field techniques like NeRFs and 3D Gaussian Splatting to develop corresponding digital twins.
-  * Developed efficient pipelines for generating 3D reconstructions of large indoor environments (warehouses) using data collected from fisheye cameras (Qoocam, Insta360, Kodak pixpro SP360), ceiling
-  cameras (Axis), and RGB-D cameras (Intel Realsense D435i) mounted on a mobile robot.
-  * Diagnosed and resolved key issues in camera calibration and data acquisition from RGB-D cameras
-  on a moving mobile robot, leading to a **30%** improvement in PSNR during training for radiance field
-  generation.
-  * Supervisors: [Dr. Matthew Andrews](https://www.bell-labs.com/about/researcher-profiles/matthewandrews/) and [Dr.Jeongran Lee](https://www.bell-labs.com/about/researcher-profiles/jeongranlee/) ([Modelling and Opimization Group, AIRL](https://www.bell-labs.com/research-innovation/projects-and-initiatives/air-lab/modelling-optimization/#gref))
+* **Research Intern - Robotics and 3D Modelling** (June 2024 - August 2024)
+  * Associated with: [Nokia Bell Labs](https://www.bell-labs.com/), Murray Hill, NJ, USA
+  * Studied the problem of representing and understanding large indoor physical spaces using radiance field techniques (NeRFs and 3D Gaussian Splatting) for developing corresponding digital twins.
+  * Developed pipelines for generating 3D reconstructions of large indoor environments (warehouses) using data collected from fisheye cameras (Qoocam, Insta360, Kodak Pixpro SP360), ceiling cameras (Axis), and RGB-D cameras (Intel RealSense D435i) mounted on a mobile robot.
+  * Diagnosed and resolved key issues in camera calibration and data acquisition from RGB-D cameras on a moving mobile robot, leading to a **30%** improvement in PSNR during training for radiance field generation.
+  * Supervisors: [Dr. Matthew Andrews](https://www.nokia.com/people/matthew-andrews/) and [Dr. Jeongran Lee](https://www.nokia.com/people/jeongran-lee/) ([Modelling and Optimization Group, AIRL](https://www.nokia.com/bell-labs/research/air-lab/modelling-optimization/))
 
 * Teaching Assistant
   * Associated with: Stony Brook University
@@ -61,28 +65,19 @@ redirect_from:
 
 Skills
 ======
-* Programming Languages: Python, C++, MATLAB, Prolog 
-* Frameworks: ROS, PyTorch, git, TensorFlow
-* Application Software and CAD: PyBullet, Gazebo, Isaac Sim, CoppeliaSim, SolidWorks, AutoCAD, Inkscape, Blender
-* Libraries: Numpy, OpenCV, Open3D, cvx, cvxpy, YALMIP, nerfstudio, Eigen, scikit-learn, PCL, OpenGL 
+* Languages: Python, C++, MATLAB, Prolog
+* Frameworks: PyTorch, ROS, git, TensorFlow
+* Simulation: PyBullet, Gazebo, Isaac Sim, CoppeliaSim, Isaac Lab
+* Optimization: cvx, cvxpy, YALMIP, Gurobi
+* Perception and Processing: OpenCV, Open3D, nerfstudio, PCL, trimesh
+* Other Libraries: NumPy, Eigen, scikit-learn, OpenGL
+* Application Software and CAD: Inkscape, Blender, AutoCAD, SolidWorks
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+<div class="pub__cv">
+{% include publication-groups.html style="cv" %}
+</div>
 
 Academic Projects
 ======
@@ -104,8 +99,9 @@ Service and Leadership
 
 * Reviewer
   * IEEE Transactions on Robotics: 2021
-  * IEEE International Conference on Robotics and Automation: 2020 - 2024
-  * IEEE/RSJ International Conference on Intelligent Robots and Systems: 2020, 2024
+  * IEEE/ASME Transactions on Mechatronics: 2025
+  * IEEE International Conference on Robotics and Automation: 2020 - Present
+  * IEEE/RSJ International Conference on Intelligent Robots and Systems: 2020, 2024, 2025
 * Session Chair
   * Grasping - IEEE/RSJ International Conference on Intelligent Robots and Systems, 2021
 
@@ -136,7 +132,7 @@ Honors and Awards
 
 * Technology Innovation Award Runner Up, SAE Baja India: Feb 2016
 
-* Ranked 34th in the Maharashtra Talent Search Examination 2008 conduted by Modern Education Society's Center for Talent Search and Excellence.
+* Ranked 34th in the Maharashtra Talent Search Examination 2008 conducted by Modern Education Society's Center for Talent Search and Excellence.
 
 
 References will be provided on request. 

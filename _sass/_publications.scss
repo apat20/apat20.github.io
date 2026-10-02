@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Publications: grouped list, author line, and link row
+   ========================================================================== */
+
+.pub__group {
+  margin-top: 2em;
+}
+
+.pub__title {
+  margin-top: 1.25em;
+}
+
+.pub__authors,
+.pub__venue {
+  margin: 0 0 0.2em;
+  font-size: $type-size-6;
+  line-height: 1.5;
+}
+
+.pub__authors strong {
+  color: $text-color;
+}
+
+.pub__venue {
+  color: $gray;
+}
+
+.pub__links {
+  display: inline-block;
+  margin-top: 0.3em;
+
+  a {
+    display: inline-block;
+    margin: 0 0.4em 0.4em 0;
+    padding: 0.15em 0.65em;
+    font-size: $type-size-7;
+    font-weight: bold;
+    line-height: 1.6;
+    text-decoration: none;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+
+    &:hover {
+      border-color: $link-color;
+    }
+  }
+}
+
+/* CV page list */
+
+.pub__group--cv {
+  margin: 1.25em 0 0.5em;
+}
+
+.pub__cv-list {
+  .pub--cv {
+    margin-bottom: 0.9em;
+    font-size: $type-size-6;
+    line-height: 1.5;
+  }
+
+  .pub__title {
+    margin: 0;
+    font-weight: bold;
+  }
+}
+
+.pub__linkrow {
+  margin: 0.35em 0 0;
+}

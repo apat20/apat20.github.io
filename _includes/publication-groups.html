@@ -1,0 +1,25 @@
+{%- comment -%}
+  Publications grouped by type, newest first within each group.
+  Each file in _publications/ sets `pubtype` to journal, conference, or workshop.
+  Pass style="cv" for the compact list used on the CV page.
+{%- endcomment -%}
+{%- assign groups = "journal|Journal Articles,conference|Conference Papers,workshop|Workshop Papers and Posters" | split: "," -%}
+{%- for group in groups -%}
+{%- assign parts = group | split: "|" -%}
+{%- assign pubs = site.publications | where: "pubtype", parts[0] | sort: "date" | reverse -%}
+{%- if pubs.size > 0 -%}
+{%- if include.style == "cv" %}
+<h3 class="pub__group pub__group--cv">{{ parts[1] }}</h3>
+<ul class="pub__cv-list">
+{%- for post in pubs %}
+{% include archive-single-cv.html %}
+{%- endfor %}
+</ul>
+{%- else %}
+<h2 class="archive__subtitle pub__group">{{ parts[1] }}</h2>
+{%- for post in pubs %}
+{% include archive-single-pub.html %}
+{%- endfor %}
+{%- endif -%}
+{%- endif -%}
+{%- endfor %}

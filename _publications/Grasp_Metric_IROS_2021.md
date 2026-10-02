@@ -1,10 +1,14 @@
 ---
-title: "Computing a Task-Dependent Grasp Metric Using Second-Order Cone Programs"
-collection: publications
-permalink: /publication/Grasp_Metric_IROS_2021
-# excerpt: 'This paper is about fixing template issue #693.'
-date: 2021-10-1
+title: 'Computing a Task-Dependent Grasp Metric Using Second-Order Cone Programs'
+collection: 'publications'
+pubtype: 'conference'
+permalink: '/publication/Grasp_Metric_IROS_2021'
+date: 2021-10-01
 venue: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+location: 'Prague, Czech Republic'
+authors: 'A. Fakhari, A. Patankar, J. Xie, and N. Chakraborty'
 paperurl: 'https://drive.google.com/file/d/1ADpvSIi3w3wJ-_gD3a6TsIUZBdJGBaXO/view?usp=sharing'
-citation: 'A. Fakhari, A. Patankar, J.Xie and N. Chakraborty. Computing a Task-Dependent Grasp Metric Using Second-Order Cone Programs. <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, Prague, Czech Republic, 2021.'
+doi: '10.1109/IROS51168.2021.9636197'
+video: 'https://www.youtube.com/watch?v=xM9ETHeR4O0'
+code: 'https://github.com/apat20/tograsp-socp'
 ---

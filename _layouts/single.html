@@ -34,7 +34,11 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' %}
+        {% if page.collection == 'publications' %}
+          {% if page.authors %}<p class="pub__authors">{{ page.authors | replace: "A. Patankar", "<strong>A. Patankar</strong>" }}</p>{% endif %}
+          <p class="pub__venue"><i>{{ page.venue }}</i>{% if page.location %}, {{ page.location }}{% endif %}, {{ page.date | date: "%Y" }}</p>
+          <p class="pub__linkrow">{% include pub-links.html pub=page %}</p>
+        {% elsif page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <!-- <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p> -->
@@ -47,7 +51,9 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
+        {% if page.collection == 'publications' and page.authors %}
+          <p style="font-size: smaller">Recommended citation: {{ page.authors }}. {{ page.title }}. <i>{{ page.venue }}</i>{% if page.location %}, {{ page.location }}{% endif %}, {{ page.date | date: "%Y" }}.</p>
+        {% elsif page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>

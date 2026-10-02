@@ -1,0 +1,16 @@
+{%- comment -%}
+  One publication in a list: title, authors (own name in bold), venue and year, link row.
+{%- endcomment -%}
+{%- include base_path -%}
+{%- assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" | strip -%}
+{%- assign authors = post.authors | replace: "A. Patankar", "<strong>A. Patankar</strong>" -%}
+<div class="list__item">
+<article class="archive__item pub" itemscope itemtype="http://schema.org/ScholarlyArticle">
+<h3 class="archive__item-title pub__title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></h3>
+{%- if post.authors %}
+<p class="pub__authors">{{ authors }}</p>
+{%- endif %}
+<p class="pub__venue"><i>{{ post.venue }}</i>{% if post.location %}, {{ post.location }}{% endif %}, {{ post.date | date: "%Y" }}</p>
+<p class="pub__linkrow">{% include pub-links.html pub=post %}</p>
+</article>
+</div>
