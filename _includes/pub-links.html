@@ -1,17 +1,20 @@
 {%- comment -%}
   One row of links for a publication. Pass the publication as `pub`.
   Front matter fields used (all optional): paperurl, arxiv, doi, video, code, project, poster, slidesurl
+  Links are separated by a space so they stay readable even where the stylesheet isn't applied.
 {%- endcomment -%}
 {%- assign p = include.pub -%}
-{%- if p.paperurl or p.arxiv or p.doi or p.video or p.code or p.project or p.poster or p.slidesurl -%}
-<span class="pub__links">
-{%- if p.paperurl %}<a href="{{ p.paperurl }}">PDF</a>{% endif -%}
-{%- if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{% endif -%}
-{%- if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
-{%- if p.video %}<a href="{{ p.video }}">Video</a>{% endif -%}
-{%- if p.code %}<a href="{{ p.code }}">Code</a>{% endif -%}
-{%- if p.project %}<a href="{{ p.project }}">Project page</a>{% endif -%}
-{%- if p.poster %}<a href="{{ p.poster }}">Poster</a>{% endif -%}
-{%- if p.slidesurl %}<a href="{{ p.slidesurl }}">Slides</a>{% endif -%}
-</span>
+{%- capture links -%}
+{% if p.paperurl %}<a href="{{ p.paperurl }}">PDF</a> {% endif %}
+{% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a> {% endif %}
+{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a> {% endif %}
+{% if p.video %}<a href="{{ p.video }}">Video</a> {% endif %}
+{% if p.code %}<a href="{{ p.code }}">Code</a> {% endif %}
+{% if p.project %}<a href="{{ p.project }}">Project page</a> {% endif %}
+{% if p.poster %}<a href="{{ p.poster }}">Poster</a> {% endif %}
+{% if p.slidesurl %}<a href="{{ p.slidesurl }}">Slides</a> {% endif %}
+{%- endcapture -%}
+{%- assign links = links | strip_newlines | strip -%}
+{%- if links != "" -%}
+<span class="pub__links">{{ links }}</span>
 {%- endif -%}
