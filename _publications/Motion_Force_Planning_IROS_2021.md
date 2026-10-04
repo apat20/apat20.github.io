@@ -10,4 +10,5 @@ authors: 'A. Fakhari, A. Patankar, and N. Chakraborty'
 paperurl: 'https://drive.google.com/file/d/1qEUnaZovGi5hd5j82Pem3NvV161XjkW_/view?usp=sharing'
 doi: '10.1109/IROS51168.2021.9636103'
 video: 'https://www.youtube.com/watch?v=BfQxiUztP6c'
+teaser: '/images/teasers/pivoting.png'
 ---

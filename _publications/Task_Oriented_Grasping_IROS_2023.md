@@ -12,4 +12,5 @@ arxiv: '2309.11689'
 doi: '10.1109/IROS55552.2023.10342318'
 code: 'https://github.com/irsl-sbu/Task-Oriented-Grasping-from-Point-Cloud-Representation'
 project: 'https://irsl-sbu.github.io/Task-Oriented-Grasping-from-Point-Cloud-Representation/'
+teaser: '/images/teasers/task-oriented-grasping.mp4'
 ---

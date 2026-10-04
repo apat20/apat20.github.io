@@ -9,4 +9,5 @@ authors: 'T. Zaw, D. Mahalingam, N. Baiata, A. Patankar, and N. Chakraborty'
 paperurl: 'https://drive.google.com/file/d/1v9Dlm6OyqzEhUUponl0v5d322oZ6AXF0/view?usp=sharing'
 doi: '10.1115/1.4067024'
 video: 'https://www.youtube.com/watch?v=GsIMyZjH4Vg'
+teaser: '/images/teasers/hybrid-finger.jpg'
 ---

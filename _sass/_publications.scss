@@ -68,3 +68,67 @@
 .pub__linkrow {
   margin: 0.35em 0 0;
 }
+
+/* Publication pictures (set `teaser:` in a publication's front matter) */
+
+.pub--list {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  column-gap: 1.25em;
+  align-items: start;
+  margin-top: 1.5em;
+
+  .pub__title {
+    margin-top: 0;
+  }
+}
+
+.pub__teaser {
+  display: block;
+}
+
+.pub__teaser-media {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+/* On a paper's own page: larger, natural shape */
+.pub__teaser--page {
+  margin: 1em 0 0.5em;
+
+  .pub__teaser-media {
+    aspect-ratio: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 420px;
+  }
+}
+
+/* Phones: picture above the text; no empty space for papers without one */
+@media (max-width: 600px) {
+  .pub--list {
+    display: block;
+  }
+
+  .pub__teaser {
+    margin-bottom: 0.6em;
+  }
+
+  .pub--list .pub__teaser-media {
+    aspect-ratio: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 240px;
+  }
+
+  .pub__teaser--empty {
+    display: none;
+  }
+}
