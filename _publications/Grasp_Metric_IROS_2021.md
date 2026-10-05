@@ -11,4 +11,5 @@ paperurl: 'https://drive.google.com/file/d/1ADpvSIi3w3wJ-_gD3a6TsIUZBdJGBaXO/vie
 doi: '10.1109/IROS51168.2021.9636197'
 video: 'https://www.youtube.com/watch?v=xM9ETHeR4O0'
 code: 'https://github.com/apat20/tograsp-socp'
+teaser: '/images/teasers/Grasp_Metric.png'
 ---
