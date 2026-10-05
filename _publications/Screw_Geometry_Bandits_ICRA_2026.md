@@ -11,4 +11,5 @@ location: 'Vienna, Austria'
 authors: 'D. Das, A. Patankar, N. Chakraborty, C.R. Ramakrishnan, and I.V. Ramakrishnan'
 arxiv: '2410.18275'
 video: 'https://www.youtube.com/watch?v=R-qICICdEos'
+teaser: '/images/teasers/bandits-clip.mp4'
 ---

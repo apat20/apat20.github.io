@@ -10,4 +10,5 @@ authors: 'D. Mahalingam, A. Patankar, R. Laha, S. Lakshminarayanan, S. Haddadin,
 arxiv: '2410.06295'
 doi: '10.1109/IROS58592.2024.10801794'
 video: 'https://www.youtube.com/watch?v=8PLYkxJ3TJU'
+teaser: '/images/teasers/traj-opt-clip.mp4'
 ---
