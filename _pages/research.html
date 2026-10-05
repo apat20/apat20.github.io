@@ -5,18 +5,37 @@ permalink: /research/
 redirect_from:
   - /portfolio/
 author_profile: true
-excerpt: "Task-oriented grasping, grasp metrics, and motion planning for manipulation tasks described as screw motions."
+excerpt: "How manipulation tasks are specified to robots and represented inside them, and task-oriented grasping and motion planning for tasks described as screw motions."
 ---
 
 {% include base_path %}
 
 <p class="research__intro">
-Most of my work comes back to one question: how should a manipulation task be described so that a robot can decide
-how to grasp an object and how to move it? My answer has been to describe the task by the motion the object has to
-go through, as a constant screw motion or a sequence of them. By Chasles' theorem, any rigid body motion can be
-approximated arbitrarily closely by such a sequence, so the same description covers opening a drawer, turning a knob,
-pivoting a box, pouring and scooping. I use it to judge whether a grasp can produce the motion, to find grasps from
-point clouds, and to plan the robot's motion, often from a single kinesthetic demonstration.
+I study how manipulation tasks are specified to robots and how they are represented inside them, and what each
+choice assumes. A task can be given as a goal, a reward, a language instruction, or a set of demonstrations. Inside
+the robot it can be represented explicitly, as constraints on how the object should move, or implicitly, through what
+a learned model picked up from its training data. These choices decide what a method can do: which tasks it can be
+specified for, what it means for it to generalize, and how anyone can tell the task is done.
+</p>
+
+<div class="research-current">
+  <p class="research-current__label">Ongoing</p>
+  <p><strong>Task specification and representation across paradigms.</strong> Relating types of manipulation tasks to
+  the specifications and representations that suit them, across planning, reinforcement learning, and learning from
+  demonstration with diffusion policies and VLAs. In progress.</p>
+  <p><strong>Multimodal aerial and underwater robots.</strong> As a postdoctoral associate in the
+  <a href="https://www.stonybrook.edu/commcms/soft-flyers/people/index.php">Soft Flyers Group</a>, I work on robots
+  that operate both in the air and under water. More here once the work is published.</p>
+</div>
+
+<h2 class="archive__subtitle">One representation, studied in depth</h2>
+
+<p class="research__intro">
+Most of my PhD explored one explicit representation: describing a task by the motion the object goes through, as a
+constant screw motion or a sequence of them. By Chasles' theorem, any rigid body motion can be approximated
+arbitrarily closely by such a sequence, so the same description covers opening a drawer, turning a knob, pivoting a
+box, pouring and scooping. I used it to judge whether a grasp can produce the motion, to find grasps from point
+clouds, and to plan the robot's motion, often from a single kinesthetic demonstration.
 </p>
 
 <ol class="research-flow">
@@ -41,13 +60,6 @@ point clouds, and to plan the robot's motion, often from a single kinesthetic de
     <span>with screw linear interpolation, from demonstrations and <a href="#contact">with contacts</a></span>
   </li>
 </ol>
-
-<div class="research-current">
-  <p class="research-current__label">Current work</p>
-  <p><strong>Multimodal aerial and underwater robots.</strong> As a postdoctoral associate in the
-  <a href="https://www.stonybrook.edu/commcms/soft-flyers/people/index.php">Soft Flyers Group</a>, I work on robots
-  that operate both in the air and under water. More here once the work is published.</p>
-</div>
 
 <h2 class="archive__subtitle">Projects</h2>
 <div class="research-grid">

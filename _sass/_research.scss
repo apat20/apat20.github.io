@@ -77,6 +77,10 @@
     font-size: $type-size-6;
   }
 
+  p + p:not(.research-current__label) {
+    margin-top: 0.5em;
+  }
+
   .research-current__label {
     margin-bottom: 0.2em;
     font-size: $type-size-7;
