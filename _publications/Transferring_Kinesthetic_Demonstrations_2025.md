@@ -11,4 +11,5 @@ paperurl: 'https://drive.google.com/file/d/1WdgCDwp8IyhFuDrKuTx15EQicIJjC06R/vie
 arxiv: '2503.10904'
 doi: '10.1109/IROS60139.2025.11246024'
 video: 'https://www.youtube.com/watch?v=RuG9zMXnfR8&t=55s'
+teaser: '/images/teasers/Transferrring_Kinesthetic_Demons.png'
 ---

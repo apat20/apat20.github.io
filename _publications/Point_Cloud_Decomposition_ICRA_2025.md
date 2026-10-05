@@ -9,4 +9,5 @@ location: 'Atlanta, GA, USA'
 authors: 'K. Phi, A. Patankar, D. Mahalingam, N. Chakraborty, and I.V. Ramakrishnan'
 doi: '10.1109/ICRA55743.2025.11127703'
 code: 'https://github.com/irsl-sbu/Point-Cloud-Decomposition-for-Grasping'
+teaser: '/images/teasers/point_cloud_decomp.png'
 ---
