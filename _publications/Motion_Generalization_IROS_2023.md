@@ -9,4 +9,5 @@ location: 'London, UK'
 authors: 'D. Das, A. Patankar, F. Honda, D. Mahalingam, N. Chakraborty, C.R. Ramakrishnan, and I.V. Ramakrishnan'
 paperurl: 'https://drive.google.com/file/d/1vI_E5jElVxCxq8QvxbTrU8XNAG6lU0bM/view?usp=sharing'
 video: 'https://www.youtube.com/watch?v=UdnkbstVGrc'
+teaser: '/images/teasers/schematic_overview_dibyendu.png'
 ---

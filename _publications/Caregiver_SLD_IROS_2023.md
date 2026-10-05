@@ -8,4 +8,5 @@ venue: 'Workshop on Assistive Robotics for Citizens, IEEE/RSJ International Conf
 location: 'Detroit, MI, USA'
 authors: 'D. Mahalingam, A. Patankar, D. Das, N. Chakraborty, C.R. Ramakrishnan, and I.V. Ramakrishnan'
 paperurl: 'https://drive.google.com/file/d/1wOpTxNNraKAikqRaFm7QCF7GDA1IKD3E/view?usp=sharing'
+teaser: '/images/teasers/UGMotionPlanningPouring.png'
 ---

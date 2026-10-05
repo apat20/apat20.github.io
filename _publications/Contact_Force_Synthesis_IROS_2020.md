@@ -10,4 +10,5 @@ authors: 'A. Patankar, A. Fakhari, and N. Chakraborty'
 paperurl: 'https://drive.google.com/file/d/1ahrGbhyc3KYJ7yK0NE42kw01ziTWkuI4/view?usp=sharing'
 doi: '10.1109/IROS45743.2020.9341316'
 video: 'https://www.youtube.com/watch?v=FWQwM_6ReNI&t=648s'
+teaser: '/images/teasers/contact-force.png'
 ---

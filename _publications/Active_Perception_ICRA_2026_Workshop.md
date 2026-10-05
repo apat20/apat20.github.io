@@ -8,4 +8,5 @@ venue: 'Workshop on Learning and Representations for Active Perception in Manipu
 location: 'Vienna, Austria'
 authors: 'K. Phi, A. T. Ho, A. Patankar, N. Chakraborty, and I.V. Ramakrishnan'
 paperurl: 'https://openreview.net/pdf?id=o3dMy6g94c'
+teaser: '/images/teasers/data-collection.mp4'
 ---
