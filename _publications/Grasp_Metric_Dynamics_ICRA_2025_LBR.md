@@ -8,4 +8,5 @@ venue: 'Late Breaking Results Poster, IEEE International Conference on Robotics 
 location: 'Atlanta, GA, USA'
 authors: 'A. Patankar, D. Mahalingam, and N. Chakraborty'
 poster: 'https://drive.google.com/file/d/17oUREef6e2BB4s5w657x1NA5tElrLCcq/view?usp=sharing'
+teaser: '/images/teasers/grasp_metric_with_dynamics.png'
 ---
