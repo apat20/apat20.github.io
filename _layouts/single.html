@@ -39,6 +39,8 @@ layout: default
           <p class="pub__venue"><i>{{ page.venue }}</i>{% if page.location %}, {{ page.location }}{% endif %}, {{ page.date | date: "%Y" }}</p>
           <p class="pub__linkrow">{% include pub-links.html pub=page %}</p>
           {% if page.teaser %}<div class="pub__teaser pub__teaser--page">{% include pub-teaser.html pub=page %}</div>{% endif %}
+        {% elsif page.collection == 'portfolio' %}
+          {% include project-header.html %}
         {% elsif page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
@@ -51,6 +53,8 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.collection == 'portfolio' %}{% include project-papers.html %}{% endif %}
 
         {% if page.collection == 'publications' and page.authors %}
           <p style="font-size: smaller">Recommended citation: {{ page.authors }}. {{ page.title }}. <i>{{ page.venue }}</i>{% if page.location %}, {{ page.location }}{% endif %}, {{ page.date | date: "%Y" }}.</p>

@@ -1,0 +1,22 @@
+{%- comment -%}
+  Top of a Research project page (files in _portfolio/): one-line summary, links, and a picture
+  or video from `hero:` (nothing shown if unset). If the project sets `paper:` (a file name from
+  _publications/ without .md), the links come from that paper; otherwise from the project's own
+  `code:` and `project:` fields.
+{%- endcomment -%}
+{%- if page.excerpt %}
+<p class="project__lead">{{ page.excerpt | strip_html | strip }}</p>
+{%- endif %}
+{%- if page.paper -%}
+{%- assign primary = site.publications | where: "slug", page.paper | first -%}
+{%- endif %}
+{%- if primary %}
+<p class="project__paper"><i>{{ primary.venue }}</i>, {{ primary.date | date: "%Y" }}. {{ primary.authors | replace: "A. Patankar", "<strong>A. Patankar</strong>" }}.</p>
+<p class="pub__linkrow">{% include pub-links.html pub=primary %}</p>
+{%- elsif page.code or page.project %}
+<p class="pub__linkrow">{% include pub-links.html pub=page %}</p>
+{%- endif %}
+{%- assign hero = page.hero -%}
+{%- if hero %}
+<div class="project__hero">{% include media.html src=hero alt=page.title class="project__hero-media" %}</div>
+{%- endif %}

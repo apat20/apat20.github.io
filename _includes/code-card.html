@@ -1,0 +1,14 @@
+{%- comment -%}
+  One code repository on the Research page. Pass an entry from _data/code.yml as `repo`.
+{%- endcomment -%}
+{%- assign r = include.repo -%}
+<article class="rcard rcard--code">
+<a class="rcard__media" href="{{ r.url }}" tabindex="-1" aria-hidden="true">{% include media.html src=r.image alt=r.name class="rcard__img" %}</a>
+<div class="rcard__body">
+<h3 class="rcard__title"><a href="{{ r.url }}">{{ r.name }}</a></h3>
+<p class="rcard__text">{{ r.description }}</p>
+{%- if r.install %}
+<pre class="rcard__install"><code>{{ r.install | strip | escape }}</code></pre>
+{%- endif %}
+</div>
+</article>

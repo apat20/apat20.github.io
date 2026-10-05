@@ -1,0 +1,20 @@
+{%- comment -%}
+  "Papers" list at the bottom of a Research project page, from the project's `papers:` field
+  (file names from _publications/ without .md), newest first.
+{%- endcomment -%}
+{%- if page.papers -%}
+{%- assign related = "" | split: "" -%}
+{%- for stem in page.papers -%}
+{%- assign found = site.publications | where: "slug", stem | first -%}
+{%- if found %}{% assign related = related | push: found %}{% endif -%}
+{%- endfor -%}
+{%- assign related = related | sort: "date" | reverse -%}
+{%- if related.size > 0 %}
+<h2 class="project__papers-title">Papers</h2>
+<div class="project__papers">
+{%- for post in related %}
+{% include archive-single-pub.html %}
+{%- endfor %}
+</div>
+{%- endif -%}
+{%- endif -%}

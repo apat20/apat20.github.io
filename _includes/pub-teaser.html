@@ -4,16 +4,4 @@
   or /images/teasers/my-paper.mp4. For a video, a .jpg with the same name (made by make-clip.sh)
   is shown while the video loads, if it exists.
 {%- endcomment -%}
-{%- include base_path -%}
-{%- assign t = include.pub.teaser -%}
-{%- if t -%}
-{%- assign ext = t | split: "." | last | downcase -%}
-{%- assign alt = include.pub.title | strip_html | escape -%}
-{%- if ext == "mp4" or ext == "webm" -%}
-{%- assign poster = t | replace: ".mp4", ".jpg" | replace: ".webm", ".jpg" -%}
-{%- assign poster_file = site.static_files | where: "path", poster | first -%}
-<video class="pub__teaser-media" src="{{ base_path }}{{ t }}"{% if poster_file %} poster="{{ base_path }}{{ poster }}"{% endif %} autoplay loop muted playsinline aria-label="{{ alt }}"></video>
-{%- else -%}
-<img class="pub__teaser-media" src="{{ base_path }}{{ t }}" alt="{{ alt }}" loading="lazy">
-{%- endif -%}
-{%- endif -%}
+{%- include media.html src=include.pub.teaser alt=include.pub.title class="pub__teaser-media" -%}

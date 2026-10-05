@@ -1,0 +1,40 @@
+# Code repositories shown on the Research page, in this order.
+# image: a picture or short .mp4 under /images/ (optional)
+# install: a few lines to get it running (optional)
+
+- name: tograsp-socp
+  url: https://github.com/apat20/tograsp-socp
+  image: /images/teasers/Grasp_Metric.png
+  description: >-
+    The task-dependent grasp metric as a second-order cone program. Takes an object point cloud and a
+    task screw, scores antipodal contacts on the object's bounding box, and returns the grasping region
+    and candidate end-effector poses.
+  install: |
+    git clone https://github.com/apat20/tograsp-socp.git && cd tograsp-socp
+    conda env create -f environment.yml && conda activate tograsp_socp
+    python main_gcsm.py --filename nontextured.ply
+
+- name: PyScLERP
+  url: https://github.com/apat20/PyScLERP
+  image: /images/research/pysclerp-plan.mp4
+  description: >-
+    Screw linear interpolation (ScLERP) for computing task-space paths in SE(3), with examples of
+    pivoting and sliding a cuboid while it stays in contact with the table, and a pivot, pick, transfer
+    and place plan.
+  install: |
+    git clone https://github.com/apat20/PyScLERP.git && cd PyScLERP
+    conda env create -f environment.yml && conda activate pysclerp
+    python main_pivoting.py
+
+- name: Task-Oriented Grasping from Point Clouds
+  url: https://github.com/irsl-sbu/Task-Oriented-Grasping-from-Point-Cloud-Representation
+  image: /images/teasers/ToGRASP.mp4
+  description: >-
+    Code for our IROS 2023 paper. A neural network predicts the grasp metric on the bounding box of a
+    partial point cloud, giving a grasping region for pivoting a cuboidal object. Includes RealSense
+    point clouds of three boxes to try it on.
+  install: |
+    git clone https://github.com/irsl-sbu/Task-Oriented-Grasping-from-Point-Cloud-Representation.git
+    cd Task-Oriented-Grasping-from-Point-Cloud-Representation
+    conda env create -f environment.yml && conda activate minimal_env
+    python -u main_pivoting.py --filename partial_point_cloud/cheezit_cracker_box.ply --visualize

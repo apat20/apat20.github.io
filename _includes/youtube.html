@@ -1,0 +1,8 @@
+{%- comment -%}
+  Embedded YouTube video that keeps a 16:9 shape at any width.
+  Usage: {% include youtube.html id="VIDEO_ID" title="What the video shows" %}
+  The id is the part after "v=" in the YouTube link. Add start=SECONDS to start later.
+{%- endcomment -%}
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}{% if include.start %}?start={{ include.start }}{% endif %}" title="{{ include.title | default: 'Video' | escape }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe>
+</div>

@@ -1,0 +1,72 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+redirect_from:
+  - /portfolio/
+author_profile: true
+excerpt: "Task-oriented grasping, grasp metrics, and motion planning for manipulation tasks described as screw motions."
+---
+
+{% include base_path %}
+
+<p class="research__intro">
+Most of my work comes back to one question: how should a manipulation task be described so that a robot can decide
+how to grasp an object and how to move it? My answer has been to describe the task by the motion the object has to
+go through, as a constant screw motion or a sequence of them. By Chasles' theorem, any rigid body motion can be
+approximated arbitrarily closely by such a sequence, so the same description covers opening a drawer, turning a knob,
+pivoting a box, pouring and scooping. I use it to judge whether a grasp can produce the motion, to find grasps from
+point clouds, and to plan the robot's motion, often from a single kinesthetic demonstration.
+</p>
+
+<ol class="research-flow">
+  <li>
+    <span class="research-flow__step">1</span>
+    <strong>Describe the task</strong>
+    <span>as a sequence of constant screw motions of the object</span>
+  </li>
+  <li>
+    <span class="research-flow__step">2</span>
+    <strong><a href="#grasp-metric">Score grasps</a></strong>
+    <span>by whether they can produce that motion</span>
+  </li>
+  <li>
+    <span class="research-flow__step">3</span>
+    <strong><a href="#task-oriented-grasping">Find grasps</a></strong>
+    <span>from point clouds, and <a href="#grasps-and-regrasps">regrasp</a> when one grasp isn't enough</span>
+  </li>
+  <li>
+    <span class="research-flow__step">4</span>
+    <strong><a href="#demonstrations">Plan the motion</a></strong>
+    <span>with screw linear interpolation, from demonstrations and <a href="#contact">with contacts</a></span>
+  </li>
+</ol>
+
+<div class="research-current">
+  <p class="research-current__label">Current work</p>
+  <p><strong>Multimodal aerial and underwater robots.</strong> As a postdoctoral associate in the
+  <a href="https://www.stonybrook.edu/commcms/soft-flyers/people/index.php">Soft Flyers Group</a>, I work on robots
+  that operate both in the air and under water. More here once the work is published.</p>
+</div>
+
+<h2 class="archive__subtitle">Projects</h2>
+<div class="research-grid">
+{%- assign projects = site.portfolio | sort: "order" -%}
+{%- for project in projects %}
+{% include research-card.html project=project %}
+{%- endfor %}
+</div>
+
+<h2 class="archive__subtitle" id="code">Code</h2>
+<div class="research-grid">
+{%- for repo in site.data.code %}
+{% include code-card.html repo=repo %}
+{%- endfor %}
+</div>
+
+<h2 class="archive__subtitle" id="hardware">Hardware and tools</h2>
+<ul class="research-tools">
+  <li><strong>Robots:</strong> Franka Emika Panda</li>
+  <li><strong>Sensors:</strong> Intel RealSense depth cameras</li>
+  <li><strong>Software:</strong> Python, C++, ROS, PyTorch, cvxpy, Open3D, OpenCV, PCL, Isaac Sim, PyBullet</li>
+</ul>
