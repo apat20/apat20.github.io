@@ -28,18 +28,30 @@ These choices decide what a method can do: which tasks it can be specified for, 
 
 <h2 class="archive__subtitle">Utilizing the inherent geometric structure of motion for representing tasks</h2>
 
-<p class="research__intro">
-Most of my PhD explored one explicit representation: describing a task in terms of the motion the object goes through, as a
-constant screw motion or a sequence of them. By Chasles' theorem, any rigid body motion can be approximated
-arbitrarily closely as a sequence of constant screw motions, so the same description covers opening a drawer, turning a knob, pivoting a
-box, pouring, scooping or even transplanting saplings in a containerized vertical farm. 
+<style>
+  .research__intro {
+    text-indent: 2em; /* Creates the "tab" effect on the first line */
+    margin-bottom: 1.5em; /* Adds vertical space between the paragraphs */
+  }
+</style>
 
-Most robotic manipulation today remains limited to pick-and-place operations, in which grasp synthesis and motion planning for manipulation  
-are traditionally treated as isolated problems. On the contrary, grasping and motion planning are closely related. The manner in which an object is grasped should be determined by how it
-is supposed to be moved. While pivoting a box, for example, the grasping region depends on the axis of pivot, and good grasps for one pivoting axis may be bad for another.
-Utilizing the screw-geometric structure of motion as the task representation, I developed algorithmic and learning-based approaches for task-oriented grasp synthesis from sensor data.
-The same representation can also be used to plan the motion of the object using Screw Linear Interpolation (ScLERP) with Resolved Motion Rate Control (RMRC). Moreover, if the 
-sequence of screws, corresponding to the desired object's motion is not know beforehand, then it can be extracted from a single kinesthetic demonstration and used to plan the motion.
+<p class="research__intro">
+  Most of my PhD explored one explicit representation: describing a task in terms of the motion the object goes through, as a
+  constant screw motion or a sequence of them. By Chasles' theorem, any rigid body motion can be approximated
+  arbitrarily closely as a sequence of constant screw motions, so the same description covers opening a drawer, turning a knob, pivoting a
+  box, pouring, scooping or even transplanting saplings in a containerized vertical farm. 
+</p>
+
+<p class="research__intro">
+  Most robotic manipulation today remains limited to pick-and-place operations, in which grasp synthesis and motion planning for manipulation  
+  are traditionally treated as isolated problems. On the contrary, grasping and motion planning are closely related. The manner in which an object is grasped should be determined by how it
+  is supposed to be moved. While pivoting a box, for example, the grasping region depends on the axis of pivot, and good grasps for one pivoting axis may be bad for another.
+</p>
+
+<p class="research__intro">
+  Utilizing the screw-geometric structure of motion as the task representation, I developed algorithmic and learning-based approaches for task-oriented grasp synthesis from sensor data.
+  The same representation can also be used to plan the motion of the object using Screw Linear Interpolation (ScLERP) with Resolved Motion Rate Control (RMRC). Moreover, if the 
+  sequence of screws, corresponding to the desired object's motion is not know beforehand, then it can be extracted from a single kinesthetic demonstration and used to plan the motion.
 </p>
 
 <ol class="research-flow">
