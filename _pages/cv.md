@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV (PDF)](/files/Aditya_Patankar_CV.pdf).
+[Download CV (PDF)](https://drive.google.com/file/d/1Vx_tQmFsVf-FgLxcgUGc25w2264Btg3O/view?usp=sharing).
 
 **Education**
 ======

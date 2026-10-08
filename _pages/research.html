@@ -12,19 +12,18 @@ excerpt: "How manipulation tasks are specified to robots and represented inside 
 
 <p class="research__intro">
 I study how manipulation tasks are specified to robots and how they are represented, and what each
-choice assumes. For example, a task can be given as a goal, a reward, a language instruction, or a set of demonstrations. 
-Tasks can be represented explicitly, as mathematical constraints on how the object should move, or implicitly, through what
-a learned model captured from its training data. These choices decide what a method can do: which tasks it can be
-specified for, what it means for it to generalize, and how we can quantify if a task is successful.
+choice assumes. For example, a task can be given during training, as a reward or a dataset of demonstrations, or at deployment, as a goal, a language instruction, or a single demonstration. 
+Tasks can be represented explicitly, as mathematical constraints on how the object should move, or implicitly, through what a learned model captured from its training data.
+These choices decide what a method can do: which tasks it can be specified for, what it means for it to generalize, and how we can quantify if a task is successful.
 </p>
 
 <div class="research-current">
   <p class="research-current__label">Ongoing</p>
+  <p><strong>Multimodal aerial and underwater robots.</strong> As a postdoctoral associate in the
+  <a href="https://www.stonybrook.edu/commcms/soft-flyers/people/index.php">Soft Flyers Group</a>, I work on robots that operate both in the air and under water. More here once the work is published.</p>
   <p><strong>Task specification and representation across paradigms.</strong> Relating types of manipulation tasks to
   the specifications and representations that suit them, across planning, reinforcement learning, and immitation learning with diffusion policies and VLAs. In progress.</p>
-  <p><strong>Multimodal aerial and underwater robots.</strong> As a postdoctoral associate in the
-  <a href="https://www.stonybrook.edu/commcms/soft-flyers/people/index.php">Soft Flyers Group</a>, I work on robots
-  that operate both in the air and under water. More here once the work is published.</p>
+  <p><strong>Task and motion planning with screw motions.</strong> Research on utilizing the screw-geometric structure of motion in a task and motion planning system. In progress.</p>
 </div>
 
 <h2 class="archive__subtitle">Utilizing the inherent geometric structure of motion for representing tasks</h2>
@@ -34,8 +33,13 @@ Most of my PhD explored one explicit representation: describing a task in terms 
 constant screw motion or a sequence of them. By Chasles' theorem, any rigid body motion can be approximated
 arbitrarily closely as a sequence of constant screw motions, so the same description covers opening a drawer, turning a knob, pivoting a
 box, pouring, scooping or even transplanting saplings in a containerized vertical farm. 
-I used this representation to evaluate the feasibility of a grasp, to find grasps from point
-clouds, and to plan the robot's motion, often from a single kinesthetic demonstration.
+
+Most robotic manipulation today remains limited to pick-and-place operations, in which grasp synthesis and motion planning for manipulation  
+are traditionally treated as isolated problems. On the contrary, grasping and motion planning are closely related. The manner in which an object is grasped should be determined by how it
+is supposed to be moved. While pivoting a box, for example, the grasping region depends on the axis of pivot, and good grasps for one pivoting axis may be bad for another.
+Utilizing the screw-geometric structure of motion as the task representation, I developed algorithmic and learning-based approaches for task-oriented grasp synthesis from sensor data.
+The same representation can also be used to plan the motion of the object using Screw Linear Interpolation (ScLERP) with Resolved Motion Rate Control (RMRC). Moreover, if the 
+sequence of screws, corresponding to the desired object's motion is not know beforehand, then it can be extracted from a single kinesthetic demonstration and used to plan the motion.
 </p>
 
 <ol class="research-flow">

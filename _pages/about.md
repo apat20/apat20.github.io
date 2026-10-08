@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Postdoctoral Associate in the [Soft Flyers Group](https://www.stonybrook.edu/commcms/soft-flyers/people/index.php) at [Stony Brook University, New York](https://www.stonybrook.edu/), where I work on multimodal aerial and underwater robots, along with robotic manipulation and planning. I completed my PhD at the [Interacting Robotic Systems Laboratory](https://sites.google.com/a/stonybrook.edu/robotics/) at Stony Brook, advised by [Dr. Nilanjan Chakraborty](https://www.cs.stonybrook.edu/people/faculty/nilanjanchakraborty), with a thesis on [Sensor-Based Task-Oriented Grasping](https://drive.google.com/file/d/1xpByRfEWfqGeon2EWBYA_WN-d9l0V54U/view?usp=sharing). My primary research interests are robotic manipulation and motion planning. More broadly, I study how manipulation tasks are specified and represented, and what that means for planning and learning-based approaches alike. I envision a future where robots work alongside humans, performing a repertoire of tasks beyond just pick and place operations. My research goal is to develop algorithms and technologies enabling robots to achieve this vision.
 
-During my PhD, I worked on several projects aimed at advancing the state-of-the-art in robotic manipulation, motion planning, and grasp synthesis. I also worked on developing solutions to real-world problems in healthcare (assistive robotics) and agriculture (containerized vertical farming using cobots). Towards the end of my PhD, I explored the potential of utilizing foundation models (VLMs, LLMs and transformer-based architectures) in robotics, particularly for performing complex manipulation tasks, i.e. tasks with constraints on the end-effector’s motion, which may be difficult to specify analytically. Please visit the [Research](/research/) and [Publications](/publications/) sections for more information.
+During my PhD, I worked on several projects aimed at advancing the state-of-the-art in robotic manipulation, motion planning, and grasp synthesis. I also worked on developing solutions to real-world problems in healthcare (assistive robotics) and agriculture (containerized vertical farming using cobots). Towards the end of my PhD, I started exploring how foundation models (VLMs and LLMs) can work with this representation. Please visit the [Research](/research/) and [Publications](/publications/) sections for more information.
 
 During the summer of 2025, I interned at [GE Aerospace Research](https://www.geaerospace.com/) as a Robotics and Embodied AI PhD Fellow in the Autonomous Systems Research group. I evaluated NVIDIA's robotics stack (cuRobo and FoundationPose) for high-mix low-volume industrial automation and built a perception-driven motion planning framework for autonomously scanning tubes and ducts.
 
@@ -17,7 +17,7 @@ During the summer of 2024, I had the opportunity to intern at [Nokia Bell Labs](
 
 Feel free to reach out to me if you are interested in my work, would like to collaborate, or if you need a reviewer for ICRA, IROS, TRO or RAL!
 
-[Download CV](/files/Aditya_Patankar_CV.pdf).
+[Download CV](https://drive.google.com/file/d/1Vx_tQmFsVf-FgLxcgUGc25w2264Btg3O/view?usp=sharing).
 
 
 
